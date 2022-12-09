@@ -1,12 +1,8 @@
 
 
 function App() {
-  return (
-    <div class='app'> 
-        {/* <NavBar />
-        <Banner /> */}
-    </div>
-  );
+  return <div>Hello!</div>;
+
 }
 
 export default App;
