@@ -1,8 +1,8 @@
-import React from 'react';
-import ProjectBody from './Project';
+// import React from 'react';
+// import ProjectBody from './Project';
 
-export default function Portfolio() {
+// export default function Portfolio() {
 
 
 
-}
+// }
