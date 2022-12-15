@@ -1,11 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
-// import Navbar from './components/Navbar';
+import Project from './components/Project';
+import About from './views/About';
+
 
 function App() {
   return (
     <div className='App'> 
       <Header />
+      
+      {/* <Project /> */}
     </div>
   )
 };

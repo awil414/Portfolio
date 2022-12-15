@@ -10,8 +10,7 @@ import {
   MDBNavbarLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBBreadcrumb,
-  MDBBreadcrumbItem
+  
 } from 'mdb-react-ui-kit';
 
 const styles = {
@@ -32,19 +31,7 @@ export default function Navbar() {
     <MDBNavbar fixed='top' expand='lg' style={styles.navbarStyle}>
       <MDBContainer fluid>
         <MDBNavbarBrand className='linkMain'href='#'>Amber Wilson</MDBNavbarBrand>
-        {/* <nav aria-label='breadcrumb'>
-          <MDBBreadcrumb>
-            <MDBBreadcrumbItem>
-              <a href='#'>About Amber</a>
-            </MDBBreadcrumbItem>
-            <MDBBreadcrumbItem>
-              <a href='#'>Projects</a>
-            </MDBBreadcrumbItem>
-            <MDBBreadcrumbItem active aria-current='page'>
-              <a href='#'>Contact</a>
-            </MDBBreadcrumbItem>
-          </MDBBreadcrumb>
-        </nav> */}
+        
         {/* <MDBNavbarToggler
           type='button'
           data-target='#navbarText'
@@ -76,19 +63,6 @@ export default function Navbar() {
   );
 }
 
-// import  React, { useState } from 'react';
-// import './style.css';
-
-// const styles = {
-//     navbarStyle: {
-//       background: 'linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%)',
-//       height: '80px',
-//       display: 'flex',
-//       justifyContent: 'flex-end',
-//       alignItems: 'center',
-//       fontSize: '20px',
-//     },
-//   };
 
 // function Navbar() {
 //   // Declare a state variable `greeting` using `useState`

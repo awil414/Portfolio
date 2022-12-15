@@ -9,7 +9,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 
-export default function App() {
+export default function Project() {
   return (
     <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
       <MDBCol>
