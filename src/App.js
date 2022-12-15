@@ -1,12 +1,11 @@
 import React from 'react';
 import Header from './components/Header';
-import Navs from './components/Navs';
+// import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div class='app'> 
+    <div className='app'> 
       <Header />,
-      <Navs />
     </div>
   )
 };
