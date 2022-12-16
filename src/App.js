@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import Project from './components/Project';
-import About from './pages/About';
+import PortfolioContainer from './components/PortfolioContainer';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div className='App'> 
-      <Header />
-      
-      {/* <Project /> */}
+      {/* <img src='./public/backgroundimg.jpeg' className='bg-img' alt='mountains'></img> */}
+      <Header /> 
+      {/* <PortfolioContainer />
+      <Footer /> */}
     </div>
   )
 };

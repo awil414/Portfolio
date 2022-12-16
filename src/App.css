@@ -6,6 +6,16 @@
 
 }
 
+.App {
+  background-image: url("images/backgroundimg.jpg");  
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  display: block;
+  overflow-y: scroll;
+  width: 750px;
+  height: 350px;
+}
 
 /* .App-logo {
   height: 40vmin;
