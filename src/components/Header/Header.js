@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
+
 const styles = {
     navHeader: {
         background: '#463320',
@@ -19,12 +20,13 @@ const styles = {
 };
 
 
-function Header() {
+function Header({setCurrentPage}) {
     return (
         <div style={styles.navHeader} className='header-nav'>
             <div style={styles.headerStyle} className='header'>
                 <span><h1 style={styles.headingStyle}>portfolio of Amber Wilson</h1></span></div> 
-            <Navbar /> 
+            <Navbar  setCurrentPage={setCurrentPage}/> 
+            
            
         </div>
         
