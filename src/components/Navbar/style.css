@@ -7,13 +7,13 @@
   background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
 } */
 
-.linkText {
+.nav-link {
   color: #fff !important;
 }
 
-.linkMain {
-  color: #3d5467 !important;
-}
+/* .navLink {
+  color: #cad1e2 !important;
+} */
   /* .nav-main {
     color: #fff;
     justify-self: start;
