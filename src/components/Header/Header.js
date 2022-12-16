@@ -3,10 +3,10 @@ import Navbar from '../Navbar';
 
 const styles = {
     navHeader: {
-        background: '#acc3a6',
+        background: '#463320',
     },
     headerStyle: {
-        background: '#000f66',
+        background: '#16569B',
     },
     headingStyle: {
         fontSize: '40px',

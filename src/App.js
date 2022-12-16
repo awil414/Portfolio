@@ -7,8 +7,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className='App'> 
-      {/* <img src='./public/backgroundimg.jpeg' className='bg-img' alt='mountains'></img> */}
       <Header /> 
+      <img src='images/backgroundimg.jpeg' className='bg-img' alt=''></img>
       {/* <PortfolioContainer />
       <Footer /> */}
     </div>

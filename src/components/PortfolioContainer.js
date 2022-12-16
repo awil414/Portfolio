@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import About from './pages/About';
+import About from '../pages/About';
 import Project from './Project';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('Header');
 
   // Checking to see what the value of currentPage is and returning the corresponding component to render.
   const renderPage = () => {
