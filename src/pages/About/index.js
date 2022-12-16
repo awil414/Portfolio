@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container } from 'react-boostrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Container } from 'react-boostrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function About() {
     return (
         <div>
-            <Container>
+            {/* <Container> */}
                 {/* <section id="about">
                     <div class="container mt-4 pt-4">
                         <h1 class="text-center">About Me</h1>
@@ -29,7 +29,7 @@ export default function About() {
                             </div>
                         </div>
                 </section> */}
-            </Container>
+            {/* </Container> */}
         </div>
     )
 };
