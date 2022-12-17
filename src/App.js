@@ -28,8 +28,8 @@ function App() {
       return <Resume />;
   };
 }
- 
-  return (
+  // Old version
+  /*
     <div className='App'> 
       <Header setCurrentPage={setCurrentPage}/> 
       <div 
@@ -41,6 +41,17 @@ function App() {
       
       {renderPage()}
       </div>
+     
+       <PortfolioContainer /> 
+      {/* <Footer />
+      </div>
+  */
+
+  return (
+    <div className='App'> 
+      <Header setCurrentPage={setCurrentPage}/>
+      
+      {renderPage()}
      
       {/* <PortfolioContainer /> */}
       {/* <Footer /> */}
