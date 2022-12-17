@@ -11,7 +11,7 @@ import Portfolio from './pages/Portfolio';
 import './App.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // Checking to see what the value of currentPage is and returning the corresponding component to render.
   const renderPage = () => {
@@ -33,10 +33,10 @@ function App() {
     <div className='App'> 
       <Header setCurrentPage={setCurrentPage}/> 
       <div 
-      className='bg-img'
-      style= {{
-        backgroundImage: `url(${BgImage})`
-      }}
+      // className='bg-img'
+      // style= {{
+      //   backgroundImage: `url(${BgImage})`
+      // }}
       >
       
       {renderPage()}

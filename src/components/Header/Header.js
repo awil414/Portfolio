@@ -26,8 +26,6 @@ function Header({setCurrentPage}) {
             <div style={styles.headerStyle} className='header'>
                 <span><h1 style={styles.headingStyle}>portfolio of Amber Wilson</h1></span></div> 
             <Navbar  setCurrentPage={setCurrentPage}/> 
-            
-           
         </div>
         
     );

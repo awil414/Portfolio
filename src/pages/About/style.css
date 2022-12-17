@@ -1,0 +1,13 @@
+.bg-img { 
+    background-image: url(../../images/backgroundimg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* -webkit-filter: grayscale(80%); */
+    margin: 0px;
+    display: block;
+    /* overflow-y: scroll; */
+    width: 100%;
+    height: 100%;
+  }
+  

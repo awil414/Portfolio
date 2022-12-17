@@ -6,7 +6,7 @@ function Portfolio(props) {
         <div>
             portfolio
             <Project title={'Project1'} description={'hello'} />
-            <Project title={'Project1'} description={'hello'} />
+            <Project title={'Project2'} description={'hello'} />
 
         </div>
     );

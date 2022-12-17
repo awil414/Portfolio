@@ -1,10 +1,16 @@
 import React from 'react';
+import BgImage from '../../images/backgroundimg.jpeg'
+import './style.css';
+
 // import { Container } from 'react-boostrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function About() {
     return (
-        <div>
+        <div
+        className='bg-img' style= {{
+        backgroundImage: `url(${BgImage})`
+      }} >
             {/* <Container> */}
                 {/* <section id="about">
                     <div class="container mt-4 pt-4">
