@@ -17,6 +17,16 @@ const styles = {
         color: 'white',
         padding: '10px',
     },
+    // taglineStyle: {
+    //     fontSize: '25px',
+    //     textAlign: 'center',
+    //     verticalAlign: 'middle',
+    //     // lineHeight: '90px',  
+    //     color: 'white',
+    //     // padding: '10px',
+    //     fontFamily: 'Satisfy',
+    // },
+
 };
 
 
@@ -24,7 +34,10 @@ function Header({setCurrentPage}) {
     return (
         <div style={styles.navHeader} className='header-nav'>
             <div style={styles.headerStyle} className='header'>
-                <span><h1 style={styles.headingStyle}>portfolio of Amber Wilson</h1></span></div> 
+                <span>
+                    <h1 style={styles.headingStyle}>portfolio of Amber Wilson</h1>
+                    {/* <p style={styles.taglineStyle}>I love people. I love problem solving.</p> */}
+                </span></div> 
             <Navbar  setCurrentPage={setCurrentPage}/> 
         </div>
         

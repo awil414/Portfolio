@@ -15,13 +15,12 @@ export default function About() {
         <div
         className='bg-img' style= {{backgroundImage: `url(${BgImage})`}}
     >       <MDBContainer className='about-container'>
-                <h2 className="h2-text-center">I love people. I love problem solving. </h2>
-                <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4>
+                <h2 className="h2-text-center">Hi! I'm Amber.</h2>
+                {/* <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4> */}
                 <p className="skills-center"> Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p>
                 <MDBRow>
                     <MDBCol className='about-text'>
-                        <p>
-                             If
+                        <p>If
                             you're looking for great communication skills, high EQ, and attention to detail, let's talk.
                             I'm currently enrolled in Vanderbilt University's full stack coding boot camp, with a
                             January completion date. My background in accounting and sales offer high attention to
