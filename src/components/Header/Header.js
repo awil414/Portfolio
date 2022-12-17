@@ -4,7 +4,7 @@ import Navbar from '../Navbar';
 
 const styles = {
     navHeader: {
-        background: '#463320',
+        background: '#6a994e',
     },
     headerStyle: {
         background: '#16569B',

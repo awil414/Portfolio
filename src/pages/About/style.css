@@ -19,4 +19,25 @@
     min-height: 100% !important;
     color: white;
   }
-  
+
+  .about-container {
+    padding-top: 20px;
+  }
+
+  .about-text {
+    margin: 0;
+  }
+
+  .h2-text-center {
+    text-align: center;
+    font-family: Satisfy;
+  }
+
+  .h4-text-center {
+    text-align: center;
+    font-family: Satisfy;
+  }
+
+  .skills-center {
+    text-align: center;
+  }
