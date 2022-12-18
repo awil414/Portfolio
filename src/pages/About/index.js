@@ -22,7 +22,7 @@ export default function About() {
                     <MDBCol md='7' className='about-text'>
                         <p>
                             I'm a full-stack developer in Nashville, TN with a coding certification from Vanderbilt University. 
-                            With my background in accounting and sales, my strengths lie in attention to detail and high EQ. 
+                            With my experience owning my own business, and my background in accounting and sales, my strengths lie in attention to detail and high EQ. 
                             If you want to know more about me, my work, or buy me a lemonade at the bottom of the Grand 
                             Canyon, let's talk.
 
