@@ -4,6 +4,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 import { TfiInstagram } from 'react-icons/tfi';
 import {HiOutlineMail} from 'react-icons/hi';
 import {GiRhinocerosHorn} from 'react-icons/gi';
+import style from './style.css';
 
 function Footer() {
     return (
