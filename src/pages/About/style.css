@@ -6,7 +6,7 @@
 
 .bg-img { 
     background-image: 
-    linear-gradient(to bottom, hsla(0, 0%, 32%, 0.50), hsla(213, 49%, 47%, 0.50)),
+    linear-gradient(to bottom, hsla(0, 0%, 32%, 0.60), hsla(213, 49%, 47%, 0.30)),
     url(../../images/backgroundimg.jpeg) !important;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,10 +28,10 @@
     margin: 0;
   }
 
-  .h2-text-center {
+  /* .h3-text-center {
     text-align: center;
     font-family: Poppins;
-  }
+  } */
 
   .h4-text-center {
     text-align: center;

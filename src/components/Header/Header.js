@@ -7,25 +7,27 @@ const styles = {
         background: '#6a994e',
     },
     headerStyle: {
-        background: '#16569B',
+        background: '#3E5E82',
     },
     headingStyle: {
-        fontSize: '40px',
+        fontSize: '35px',
         textAlign: 'center',
         verticalAlign: 'middle',
         lineHeight: '90px',  
         color: 'white',
         padding: '10px',
+        marginBottom: '0'
     },
-    // taglineStyle: {
-    //     fontSize: '25px',
-    //     textAlign: 'center',
-    //     verticalAlign: 'middle',
-    //     // lineHeight: '90px',  
-    //     color: 'white',
-    //     // padding: '10px',
-    //     fontFamily: 'Satisfy',
-    // },
+    skillsStyle: {
+        fontSize: '20px',
+        textAlign: 'center',
+        verticalAlign: 'middle',
+        // lineHeight: '90px',  
+        color: 'white',
+        // padding: '10px',
+        
+        
+    },
 
 };
 
@@ -35,8 +37,9 @@ function Header({setCurrentPage}) {
         <div style={styles.navHeader} className='header-nav'>
             <div style={styles.headerStyle} className='header'>
                 <span>
-                    <h1 style={styles.headingStyle}>portfolio of Amber Wilson</h1>
-                    {/* <p style={styles.taglineStyle}>I love people. I love problem solving.</p> */}
+                    <h2 style={styles.headingStyle}>Hi! {''} <span className='wave' role='img' aria-labelledby='wave'>
+                👋</span><strong className='name'> I'm Amber Wilson </strong></h2>
+                    <p style={styles.skillsStyle}>Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p>
                 </span></div> 
             <Navbar  setCurrentPage={setCurrentPage}/> 
         </div>

@@ -40,7 +40,7 @@ function Navbar({ currentPage, setCurrentPage }) {
           Contact
         </a>
       </li>
-      <li className="nav-tagline">I love people. I love problem solving.</li>
+      <li className="nav-tagline">Tagline goes here.</li>
     </ul>
   );
 }
