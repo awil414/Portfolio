@@ -10,7 +10,7 @@ const styles = {
         background: '#3E5E82',
     },
     headingStyle: {
-        fontSize: '35px',
+        fontSize: '40px',
         textAlign: 'center',
         verticalAlign: 'middle',
         lineHeight: '90px',  
@@ -37,8 +37,7 @@ function Header({setCurrentPage}) {
         <div style={styles.navHeader} className='header-nav'>
             <div style={styles.headerStyle} className='header'>
                 <span>
-                    <h2 style={styles.headingStyle}>Hi! {''} <span className='wave' role='img' aria-labelledby='wave'>
-                👋</span><strong className='name'> I'm Amber Wilson </strong></h2>
+                    <h2 style={styles.headingStyle}>portfolio of Amber Wilson</h2>
                     <p style={styles.skillsStyle}>Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p>
                 </span></div> 
             <Navbar  setCurrentPage={setCurrentPage}/> 

@@ -15,7 +15,8 @@ export default function About() {
         <div
         className='bg-img' style= {{backgroundImage: `url(${BgImage})`}}
     >       <MDBContainer className='about-container'>
-                <h4 className="h3-text-center">About Me</h4>
+                <h4>Hi! {''} <span className='wave' role='img' aria-labelledby='wave'>
+                👋</span><strong className='name'> I'm Amber Wilson </strong></h4>
                 {/* <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4> */}
                 {/* <p className="skills-center"> Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p> */}
                 <MDBRow>
