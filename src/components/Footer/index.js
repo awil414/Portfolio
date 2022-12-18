@@ -3,14 +3,14 @@ import { VscGithub } from "react-icons/vsc";
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { TfiInstagram } from 'react-icons/tfi';
 import {HiOutlineMail} from 'react-icons/hi';
-import {GiRhinocerosHorn} from 'react-icons/gi';
-import style from './style.css';
+// import {GiRhinocerosHorn} from 'react-icons/gi';
+import './style.css';
 
 function Footer() {
     return (
         <footer>
-            <h3>Made by Amber Wilson <GiRhinocerosHorn /><span className='heart' role='img' aria-labelledby='heart'></span></h3>
-            <p>
+            {/* <h3>Made by Amber Wilson <GiRhinocerosHorn /><span className='heart' role='img' aria-labelledby='heart'></span></h3> */}
+            <div class='container d-flex justify-content-center'>
                 <ul>
                     <a href='https://github.com/awil414'>
                         <li className='ftr-icon'><VscGithub /></li>
@@ -25,7 +25,7 @@ function Footer() {
                         <li className='ftr-icon'><TfiInstagram /></li>
                     </a>
                 </ul>
-            </p>
+            </div>
         </footer>
     )
 }

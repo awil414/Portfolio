@@ -15,15 +15,15 @@ export default function About() {
         <div
         className='bg-img' style= {{backgroundImage: `url(${BgImage})`}}
     >       <MDBContainer className='about-container'>
-                <h4>Hi! {''} <span className='wave' role='img' aria-labelledby='wave'>
+                <h4>Welcome! {''} <span className='wave' role='img' aria-labelledby='wave'>
                 👋</span><strong className='name'> I'm Amber </strong></h4>
                 {/* <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4> */}
                 {/* <p className="skills-center"> Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p> */}
                 <MDBRow>
                     <MDBCol md='7' className='about-text'>
                         <p>
-                            I'm a full-stack developer in Nashville, TN with a coding certification from Vanderbilt University. 
-                            With my experience owning my own business, and my background in accounting and sales, my strengths lie in attention to detail and high EQ. 
+                            I am a full-stack developer based in Nashville, TN with a certification from Vanderbilt University. 
+                            I have a background in Accounting and Sales, and own my own business. Check out my portfolio page! 
                             If you want to know more about me, my work, or buy me a lemonade at the bottom of the Grand 
                             Canyon, let's talk.
                         </p>

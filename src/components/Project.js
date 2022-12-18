@@ -5,15 +5,15 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  MDBRow,
-  MDBCol
+  // MDBRow,
+  // MDBCol
 } from 'mdb-react-ui-kit';
 import { Button } from 'react-bootstrap';
 
 // export default function Project({title, description}) {
 //   return (
 
-function Project(props) {
+  export default function Project(props) {
   return (
     // <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
     //   <MDBCol>
@@ -54,4 +54,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+// export default Project;
