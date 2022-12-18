@@ -16,7 +16,7 @@ export default function About() {
         className='bg-img' style= {{backgroundImage: `url(${BgImage})`}}
     >       <MDBContainer className='about-container'>
                 <h4>Hi! {''} <span className='wave' role='img' aria-labelledby='wave'>
-                👋</span><strong className='name'> I'm Amber Wilson </strong></h4>
+                👋</span><strong className='name'> I'm Amber </strong></h4>
                 {/* <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4> */}
                 {/* <p className="skills-center"> Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p> */}
                 <MDBRow>
@@ -26,14 +26,6 @@ export default function About() {
                             With my experience owning my own business, and my background in accounting and sales, my strengths lie in attention to detail and high EQ. 
                             If you want to know more about me, my work, or buy me a lemonade at the bottom of the Grand 
                             Canyon, let's talk.
-
-                        {/* If
-                            you're looking for great communication skills, high EQ, and attention to detail, let's talk.
-                            I'm currently enrolled in Vanderbilt University's full stack coding boot camp, with a
-                            January completion date. My background in accounting and sales offer high attention to
-                            detail and excellent communication skills. I own my own personal training business because
-                            passion is important to me, too. If there is a challenge, personally or professionally, I
-                            want it. And I want to help you. */}
                         </p>
                     </MDBCol>
                     <MDBCol md='5' className='about-image' imgURL={AmberImage} >
