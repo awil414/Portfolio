@@ -54,7 +54,7 @@ function App() {
       {renderPage()}
      
       {/* <PortfolioContainer /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 };
