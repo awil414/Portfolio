@@ -32,33 +32,7 @@ export default function About() {
                         <p>
                             Picture goes here. 
                         </p>
-                {/* <section id="about">
-                    <div class="container mt-4 pt-4" id="">
-                        <h1 class="text-center">About Me</h1>
-                        <div class="row mt-4">
-                            <div class="col-lg-4">
-                                <img src="./assets/img/me.jpeg" class="imageAboutPage" alt="Amber Wilson"> </img>
-                            </div>
-
-                            <div class="col-lg-8">
-                                <p> Full-Stack Developer | HTML | CSS3 | JavaScript | jQuery | APIs | Node | Express |</p>
-                                <div class="row mt-3 p-3"> */}
-
-
-                                {/* <h1 className="text-left">About Amber</h1>
-                                <div className='row mt-4'></div>
-                                    <div className='col-lg-4'>
-                                        style= {{img: `url(${AmberImage})`}}
-                                    </div> */}
-                                    
-
-
-
-                                {/* </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
+       
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
