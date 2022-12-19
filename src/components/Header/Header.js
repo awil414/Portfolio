@@ -38,7 +38,7 @@ function Header({setCurrentPage}) {
             <div style={styles.headerStyle} className='header'>
                 <span>
                     <h2 style={styles.headingStyle}>portfolio of Amber Wilson</h2>
-                    <p style={styles.skillsStyle}>Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p>
+                    <p style={styles.skillsStyle}>Full-Stack Developer | JavaScript | MongoDB | Express | React | Node |</p>
                 </span></div> 
             <Navbar  setCurrentPage={setCurrentPage}/> 
         </div>
