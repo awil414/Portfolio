@@ -1,0 +1,10 @@
+.header h2 {
+    font: '40px';
+    text-align: 'center';
+    display: 'inline-block';
+    line-height: '60px'; 
+    color: 'black';
+    padding: '10px';
+    margin: '0';
+   
+}
