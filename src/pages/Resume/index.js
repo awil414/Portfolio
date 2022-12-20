@@ -72,15 +72,17 @@ const Resume = () => {
                         <li>Proactive problem-solver, supervising and training employees and negotiating studio needs.</li>
                         <li>Efficient time-manager, prioritizing tasks and delivering a first-class experience.</li>
                     </ul>
-                    <p><em>With supporting text below as a natural lead-in to additional content.</em></p>
+                    <div style={{ color: '#0c6ad5'}}><em>Lead Strength and Conditioning Coach/Group Instructor</em></div>
+                    <p>Iron Tribe Fitness</p>
                     <ul>
-                        <li>amber.wilson.code@gmail.com</li>
-                        <li>(615) 337-1797</li>
+                        <li>Strong emotional IQ, relationship building skills, instructing 175+ athletes, including sales, client engagement and retention.</li>
+                        <li>High-achiever,  invited to join the coaching team within a year of being a member.</li>
                     </ul>
-                    <p><em>With supporting text below as a natural lead-in to additional content.</em></p>
+                    <div style={{ color: '#0c6ad5'}}><em>Pharmaceutical Sales Rep</em></div>
+                    <p>InVentiv Health for Beohringer Ingelheim</p>
                     <ul>
-                        <li>amber.wilson.code@gmail.com</li>
-                        <li>(615) 337-1797</li>
+                        <li>Increased product position within territory, relationship building and educating.</li>
+                        <li>More text here.</li>
                     </ul>
                     </MDBCardText>
                 </MDBCardBody>
