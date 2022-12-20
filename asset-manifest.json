@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e4bda5d7.css",
-    "main.js": "/Portfolio/static/js/main.0671834b.js",
+    "main.css": "/Portfolio/static/css/main.5eda6daa.css",
+    "main.js": "/Portfolio/static/js/main.f20337a3.js",
     "static/media/goalE.png": "/Portfolio/static/media/goalE.fc59ca31c944dd664e59.png",
     "static/media/SideBeat.png": "/Portfolio/static/media/SideBeat.aa167c6447fe5f439329.png",
     "static/media/SocNetworkAPI.png": "/Portfolio/static/media/SocNetworkAPI.060786c166f5c7c124e2.png",
@@ -9,12 +9,13 @@
     "static/media/eCommerce.png": "/Portfolio/static/media/eCommerce.602805d8b338d4ad7929.png",
     "static/media/backgroundimg.jpeg": "/Portfolio/static/media/backgroundimg.7282fc5e0d22f4c702e0.jpeg",
     "static/media/planner.png": "/Portfolio/static/media/planner.4ff04e64ecdf5aeeb5e1.png",
+    "static/media/aresume.pdf": "/Portfolio/static/media/aresume.8f5bf044ee7438ed14fc.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.e4bda5d7.css.map": "/Portfolio/static/css/main.e4bda5d7.css.map",
-    "main.0671834b.js.map": "/Portfolio/static/js/main.0671834b.js.map"
+    "main.5eda6daa.css.map": "/Portfolio/static/css/main.5eda6daa.css.map",
+    "main.f20337a3.js.map": "/Portfolio/static/js/main.f20337a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4bda5d7.css",
-    "static/js/main.0671834b.js"
+    "static/css/main.5eda6daa.css",
+    "static/js/main.f20337a3.js"
   ]
 }
