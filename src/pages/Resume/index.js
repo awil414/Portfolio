@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import myResume from "../../media/aresume.pdf";
 
 // import { ListGroupItem } from 'react-bootstrap';
 // import { ListGroup } from 'react-bootstrap';
@@ -22,7 +23,7 @@ const Resume = () => {
     <div class='resume'>
       <div className='main-title'>
         <h2>Resume</h2>
-        <p> Download MY RESUME </p>
+        <p> Download <a href={myResume} download>MY RESUME</a> </p>
       </div>
       <MDBRow>
         <MDBCol sm='6'>
@@ -36,7 +37,7 @@ const Resume = () => {
                     additional content.
                   </em>
                 </p>
-                <ul>
+                <ul className='res-list'>
                   <li>amber.wilson.code@gmail.com</li>
                   <li>(615) 337-1797</li>
                 </ul>
@@ -77,7 +78,7 @@ const Resume = () => {
                   <em>Owner Operator - Certified Personal Trainer</em>
                 </div>
                 <p>Dubs Fitness</p>
-                <ul>
+                <ul className='res-list'>
                   <li>
                     Self-starter, implementing a results-driven personal
                     training business, reaching max capacity clients within
@@ -92,7 +93,7 @@ const Resume = () => {
                   <em>Studio Manager</em>
                 </div>
                 <p>Pure Sweat + Float Studio</p>
-                <ul>
+                <ul className='res-list'>
                   <li>
                     Proactive problem-solver, supervising and training employees
                     and negotiating studio needs.
@@ -106,7 +107,7 @@ const Resume = () => {
                   <em>Lead Strength and Conditioning Coach/Group Instructor</em>
                 </div>
                 <p>Iron Tribe Fitness</p>
-                <ul>
+                <ul className='res-list'>
                   <li>
                     Strong emotional IQ, relationship building skills,
                     instructing 175+ athletes, including sales, client
@@ -121,7 +122,7 @@ const Resume = () => {
                   <em>Pharmaceutical Sales Rep</em>
                 </div>
                 <p>InVentiv Health for Beohringer Ingelheim</p>
-                <ul>
+                <ul className='res-list'>
                   <li>
                     Increased product position within territory, relationship
                     building and educating.

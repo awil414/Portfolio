@@ -44,3 +44,12 @@
 .skills-center {
   text-align: center;
 }
+
+.amber-img {
+  background-image: url(../../images/me.jpeg);
+  height: 170px;
+  width: 170px;
+  border-radius: 170px;
+  background-size: cover;
+  background-position: 8px;
+}

@@ -30,7 +30,8 @@ export default function About() {
             </p>
           </MDBCol>
           <MDBCol md='5' className='about-image' imgURL={AmberImage}>
-            <p>Picture goes here.</p>
+            <div className='amber-img'></div>
+            {/* <img className='amber-img' alt='amber picture' src={AmberImage}/> */}
           </MDBCol>
         </MDBRow>
       </MDBContainer>
