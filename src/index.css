@@ -1,19 +1,15 @@
-
 body {
   margin: 0;
   padding: 0;
   font-family: Poppins;
 }
 
-
-
-
 /* body{
   margin: 0px;
   padding: 0px;
   border-top: none;
     /* background: linear-gradient(to right,black, grey,black); */
-    /* background-image: url("/public/backgroundimg.jpg");  
+/* background-image: url("/public/backgroundimg.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -21,4 +17,4 @@ body {
     overflow-y: scroll;
     width: 750px;
     height: 350px;
-} */ 
+} */

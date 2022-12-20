@@ -3,21 +3,20 @@
 } */
 /* how do I get p tags black? */
 .p {
-    color: 'black !important';
+  color: "black !important";
 }
 
 .header h2 {
-    font: '40px';
-    text-align: 'center';
-    display: 'inline-block';
-    line-height: '60px'; 
-    color: 'black';
-    padding: '10px';
-    margin: '0';
-   
+  font: "40px";
+  text-align: "center";
+  display: "inline-block";
+  line-height: "60px";
+  color: "black";
+  padding: "10px";
+  margin: "0";
 }
 
 ul li::marker {
-    color: #6a994e;
-    font-size: 1.3em;
+  color: #6a994e;
+  font-size: 1.3em;
 }

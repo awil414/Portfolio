@@ -1,41 +1,39 @@
-import React from 'react';
-import BgImage from '../../images/backgroundimg.jpeg';
-import AmberImage from '../../images/me.jpeg';
-import './style.css';
+import React from "react";
+import BgImage from "../../images/backgroundimg.jpeg";
+import AmberImage from "../../images/me.jpeg";
+import "./style.css";
 
-import {
-    MDBContainer,
-    MDBRow,
-    MDBCol
-  } from 'mdb-react-ui-kit';
-  
+import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 
 export default function About() {
-    return (
-        <div
-        className='bg-img' style= {{backgroundImage: `url(${BgImage})`}}
-    >       <MDBContainer className='about-container'>
-                <h4>Welcome! {''} <span className='wave' role='img' aria-labelledby='wave'>
-                👋</span><strong className='name'> I'm Amber </strong></h4>
-                {/* <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4> */}
-                {/* <p className="skills-center"> Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p> */}
-                <MDBRow>
-                    <MDBCol md='7' className='about-text'>
-                        <p>
-                            I am a full-stack developer based in Nashville, TN with a certification from Vanderbilt University. 
-                            I have a background in Accounting and Sales, and own my own business. Check out my portfolio page! 
-                            If you want to know more about me, my work, or buy me a lemonade at the bottom of the Grand 
-                            Canyon, let's talk.
-                        </p>
-                    </MDBCol>
-                    <MDBCol md='5' className='about-image' imgURL={AmberImage} >
-                        <p>
-                            Picture goes here. 
-                        </p>
-       
-                    </MDBCol>
-                </MDBRow>
-            </MDBContainer>
-        </div>
-    )
-};
+  return (
+    <div className='bg-img' style={{ backgroundImage: `url(${BgImage})` }}>
+      {" "}
+      <MDBContainer className='about-container'>
+        <h4>
+          Welcome! {""}{" "}
+          <span className='wave' role='img' aria-labelledby='wave'>
+            👋
+          </span>
+          <strong className='name'> I'm Amber </strong>
+        </h4>
+        {/* <h4 className="h4-text-center">Successfully navigating both is what makes me unique. </h4> */}
+        {/* <p className="skills-center"> Full-Stack Developer | JavaScript | Node | Express | MongoDB | React |</p> */}
+        <MDBRow>
+          <MDBCol md='7' className='about-text'>
+            <p>
+              I am a full-stack developer based in Nashville, TN with a
+              certification from Vanderbilt University. I have a background in
+              Accounting and Sales, and own my own business. Check out my
+              portfolio page! If you want to know more about me, my work, or buy
+              me a lemonade at the bottom of the Grand Canyon, let's talk.
+            </p>
+          </MDBCol>
+          <MDBCol md='5' className='about-image' imgURL={AmberImage}>
+            <p>Picture goes here.</p>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+    </div>
+  );
+}
