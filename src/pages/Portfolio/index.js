@@ -5,14 +5,33 @@ import SocNetworkAPI from "../../images/Projects/SocNetworkAPI.png";
 import SideBeat from "../../images/Projects/SideBeat.png";
 import planner from "../../images/Projects/planner.png";
 import eCommerce from "../../images/Projects/eCommerce.png";
+import "./style.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 
+const styles = {
+
+  backgroundStyle: {
+    background: "#3E5E82",
+  },
+  headingStyle: {
+    fontSize: "30px",
+    textAlign: "center",
+    verticalAlign: "middle",
+    lineHeight: "60px",
+    color: "white",
+    padding: "10px",
+    marginBottom: "0",
+  },
+};
+
 function Portfolio() {
   return (
-    <Container fluid className='portfolio-page'>
+    <Container fluid style={styles.backgroundStyle} className='portfolio-page'>
       <Container>
-        <h2 className='portfolio-header'>Works</h2>
+        <span>
+          <h2 style={styles.headingStyle}>My Work</h2>
+        </span>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
@@ -80,24 +99,3 @@ function Portfolio() {
 
 export default Portfolio;
 
-// Old code
-// {/* <MDBContainer fluid className='portfolio-page'>
-//             {/* portfolio
-//             <Project title={'Project1'} description={'hello'} />
-//             <Project title={'Project2'} description={'hello'} /> */}
-//             <h1 className='portfolio-header'>My Work</h1>
-//             <p>Check out my latest projects.</p>
-//             <MDBRow style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-//                 <MDBCol md={6} className='project-card'>
-//                     <Project
-//                         imgPath={goalE}
-//                         title='Goal-E'
-//                         description='App to set, update, and keep or delete personal goals.'
-//                         ghLink=''
-//                         demoLink=''
-//                     />
-//                 </MDBCol>
-
-//             </MDBRow>
-
-//         </MDBContainer> */}

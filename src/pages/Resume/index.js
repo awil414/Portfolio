@@ -25,7 +25,7 @@ const Resume = () => {
         <h2>Resume</h2>
         <p> Download <a href={myResume} download>MY RESUME</a> </p>
       </div>
-      <MDBRow>
+      <MDBRow >
         <MDBCol sm='6'>
           <MDBCard className='resume-card'>
             <MDBCardBody>
