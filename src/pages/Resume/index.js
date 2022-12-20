@@ -27,24 +27,62 @@ const Resume = () => {
             </div>
             <MDBRow>
             <MDBCol sm='6'>
-                <MDBCard>
+                <MDBCard className='resume-card'>
                 <MDBCardBody>
-                    <MDBCardTitle>Special title treatment</MDBCardTitle>
+                    <MDBCardTitle className='section-title'>Summary</MDBCardTitle>
                     <MDBCardText>
-                    With supporting text below as a natural lead-in to additional content.
+                    <p><em>With supporting text below as a natural lead-in to additional content.</em></p>
+                    <ul>
+                        <li>amber.wilson.code@gmail.com</li>
+                        <li>(615) 337-1797</li>
+                    </ul>
                     </MDBCardText>
-                    <MDBBtn href='#'>Go somewhere</MDBBtn>
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
             <MDBCol sm='6'>
                 <MDBCard>
                 <MDBCardBody>
-                    <MDBCardTitle>Special title treatment</MDBCardTitle>
-                    <MDBCardText>
-                    With supporting text below as a natural lead-in to additional content.
+                    <MDBCardTitle className='section-title'>Education</MDBCardTitle>
+                    <MDBCardText className='ed-main'>
+                    <div style={{ color: '#0c6ad5'}}> FULL-STACK DEVELOPER CERTIFICATION </div>
+                    <p className='ed-text'><em>Vanderbilt University</em></p>
                     </MDBCardText>
-                    <MDBBtn href='#'>Go somewhere</MDBBtn>
+                    <MDBCardText className='ed-main'>
+                    <div style={{ color: '#0c6ad5'}}> ACCOUNTING </div>
+                    <p className='ed-text'><em>Ball State University</em></p>
+                    </MDBCardText>
+                </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+            <MDBCol md='12'>
+                <MDBCard className='experience-card'>
+                <MDBCardBody>
+                    <MDBCardTitle className='section-title'>Professional Experience</MDBCardTitle>
+                    <MDBCardText>
+                    <div style={{ color: '#0c6ad5'}}><em>Owner Operator - Certified Personal Trainer</em></div>
+                    <p>Dubs Fitness</p>
+                    <ul>
+                        <li>Self-starter,  implementing a results-driven personal training business, reaching max capacity clients within three months.</li>
+                        <li>Innovative and individualized program designer, skilled in assessing clients needs and optimization.</li>
+                    </ul>
+                    <div style={{ color: '#0c6ad5'}}><em>Studio Manager</em></div>
+                    <p>Pure Sweat + Float Studio</p>
+                    <ul>
+                        <li>Proactive problem-solver, supervising and training employees and negotiating studio needs.</li>
+                        <li>Efficient time-manager, prioritizing tasks and delivering a first-class experience.</li>
+                    </ul>
+                    <p><em>With supporting text below as a natural lead-in to additional content.</em></p>
+                    <ul>
+                        <li>amber.wilson.code@gmail.com</li>
+                        <li>(615) 337-1797</li>
+                    </ul>
+                    <p><em>With supporting text below as a natural lead-in to additional content.</em></p>
+                    <ul>
+                        <li>amber.wilson.code@gmail.com</li>
+                        <li>(615) 337-1797</li>
+                    </ul>
+                    </MDBCardText>
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>
