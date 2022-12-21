@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5eda6daa.css",
-    "main.js": "/Portfolio/static/js/main.f20337a3.js",
+    "main.css": "/Portfolio/static/css/main.c72e1069.css",
+    "main.js": "/Portfolio/static/js/main.969b91d6.js",
     "static/media/goalE.png": "/Portfolio/static/media/goalE.fc59ca31c944dd664e59.png",
-    "static/media/SideBeat.png": "/Portfolio/static/media/SideBeat.aa167c6447fe5f439329.png",
+    "static/media/SideBeat3.png": "/Portfolio/static/media/SideBeat3.d65109f20c6cb4e620af.png",
     "static/media/SocNetworkAPI.png": "/Portfolio/static/media/SocNetworkAPI.060786c166f5c7c124e2.png",
     "static/media/me.jpeg": "/Portfolio/static/media/me.c0d3f58b17e21718d2e3.jpeg",
     "static/media/eCommerce.png": "/Portfolio/static/media/eCommerce.602805d8b338d4ad7929.png",
     "static/media/backgroundimg.jpeg": "/Portfolio/static/media/backgroundimg.7282fc5e0d22f4c702e0.jpeg",
     "static/media/planner.png": "/Portfolio/static/media/planner.4ff04e64ecdf5aeeb5e1.png",
+    "static/media/CodingQuiz.png": "/Portfolio/static/media/CodingQuiz.7898600df68c139b3119.png",
     "static/media/aresume.pdf": "/Portfolio/static/media/aresume.8f5bf044ee7438ed14fc.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.5eda6daa.css.map": "/Portfolio/static/css/main.5eda6daa.css.map",
-    "main.f20337a3.js.map": "/Portfolio/static/js/main.f20337a3.js.map"
+    "main.c72e1069.css.map": "/Portfolio/static/css/main.c72e1069.css.map",
+    "main.969b91d6.js.map": "/Portfolio/static/js/main.969b91d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eda6daa.css",
-    "static/js/main.f20337a3.js"
+    "static/css/main.c72e1069.css",
+    "static/js/main.969b91d6.js"
   ]
 }
