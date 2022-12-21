@@ -28,7 +28,7 @@ a {
   
   a:hover, .MDBButton {
     transition: 0.3s ease;
-    color: #1f87ff;
+    color: #1f87ff !important;
   }
   
   .project-icon {
