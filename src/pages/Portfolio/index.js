@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../../components/Project/Project.js";
 import goalE from "../../images/Projects/goalE.png";
 import SocNetworkAPI from "../../images/Projects/SocNetworkAPI.png";
-import SideBeat from "../../images/Projects/SideBeat.png";
+import SideBeat3 from "../../images/Projects/SideBeat3.png";
 import planner from "../../images/Projects/planner.png";
 import eCommerce from "../../images/Projects/eCommerce.png";
 import "./style.css";
@@ -44,7 +44,7 @@ function Portfolio() {
           </Col>
           <Col md={6} className='project-card'>
             <Project
-              imgPath={SideBeat}
+              imgPath={SideBeat3}
               title='Side Beat'
               description="This project was developed to build and structure a social network API using MongoDB because of its speed with large amounts of data, and flexibility with unstructured data. Users are able to share their thoughts, react to friends' thoughts, and create a friend list."
               ghLink='https://github.com/awil414/Side-Beat.git'
@@ -64,22 +64,22 @@ function Portfolio() {
           </Col>
           <Col md={6} className='project-card'>
             <Project
-              imgPath={planner}
-              title='Interactive Day Planner'
-              description='This Kick Butt and Take Names Day Planner is a simple calendar application intended for an employee with a busy schedule. The app runs in the browser using jQuery to dynamically power the HTML and CSS. The user can add important events to the daily planner in order to manage their time effectively.'
-              ghLink='https://github.com/awil414/Kick-Butt-And-Take-Names-Planner.git'
-              demoLink='https://awil414.github.io/Kick-Butt-And-Take-Names-Planner/'
+              imgPath={eCommerce}
+              title='E-Commerce Backend'
+              description='This E-Commerce Backend uses a REST API for an internet retail website. The API is built onto an Express.js server that uses Sequelize to interact with a MySQL database. Sequelize is a promise-based Node.js ORM(Object Relation Mapping).'
+              ghLink='https://github.com/awil414/E-Commerce-Back-End.git'
+              demoLink='https://drive.google.com/file/d/1thxQ0vmNVT4O6m3JryVh0MTYH_PXIIbt/view'
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
-              imgPath={eCommerce}
-              title='E-Commerce Backend'
-              description='This E-Commerce Backend uses a REST API for an internet retail website. The API is built onto an Express.js server that uses Sequelize to interact with a MySQL database. Sequelize is a promise-based Node.js ORM(Object Relation Mapping).'
-              ghLink='https://github.com/awil414/E-Commerce-Back-End.git'
-              demoLink='https://drive.google.com/file/d/1thxQ0vmNVT4O6m3JryVh0MTYH_PXIIbt/view'
+              imgPath={planner}
+              title='Day Planner'
+              description='This Kick Butt and Take Names Day Planner is a simple calendar application intended for an employee with a busy schedule. The app runs in the browser using jQuery to dynamically power the HTML and CSS. The user can add important events to the daily planner in order to manage their time effectively.'
+              ghLink='https://github.com/awil414/Kick-Butt-And-Take-Names-Planner.git'
+              demoLink='https://awil414.github.io/Kick-Butt-And-Take-Names-Planner/'
             />
           </Col>
           <Col md={6} className='project-card'>

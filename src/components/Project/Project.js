@@ -53,7 +53,7 @@ import { MDBRipple } from 'mdb-react-ui-kit';
 export default function Project(props)  {
   return (
     <div>
-      <MDBCard style= {{ maxWidth: '24rem' }} className='mb-2 mt-4 border-2 rounded-4 text-white'>
+      <MDBCard style= {{ maxWidth: '30rem' }} className='mb-2 mt-4 border-2 rounded-4 text-white'>
       {/* <MDBRipple className='bg-image' rippleTag='div' rippleColor='light'> */}
         <div class='img-blur'>
         <MDBCardImage className='w-100 rounded-6' overlay src={props.imgPath} alt='card-img'/>
