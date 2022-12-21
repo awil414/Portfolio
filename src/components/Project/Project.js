@@ -85,7 +85,7 @@ export default function Project(props)  {
         </div>
       {/* </MDBRipple> */}
       </MDBCard>
-      <MDBRow className='text-center' style= {{ maxWidth: '24rem' }}>
+      <MDBRow >
         {/* <MDBCol><MDBBtn className='custom-btn' href={props.demoLink}>{props.title}</MDBBtn></MDBCol> */}
         <MDBCol><MDBBtn data-mdb-ripple-color="#44c6e3" href={props.demoLink}>{props.title}</MDBBtn></MDBCol>
         {/* <MDBCol><MDBBtn className='custom-btn' href={props.ghLink}>@ GitHub</MDBBtn></MDBCol> */}

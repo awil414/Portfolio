@@ -5,6 +5,7 @@ import SocNetworkAPI from "../../images/Projects/SocNetworkAPI.png";
 import SideBeat3 from "../../images/Projects/SideBeat3.png";
 import planner from "../../images/Projects/planner.png";
 import eCommerce from "../../images/Projects/eCommerce.png";
+import CodingQuiz from "../../images/Projects/CodingQuiz.png";
 import "./style.css";
 
 import { Container, Row, Col } from "react-bootstrap";
@@ -84,11 +85,11 @@ function Portfolio() {
           </Col>
           <Col md={6} className='project-card'>
             <Project
-              imgPath={goalE}
-              title='Goal-E'
+              imgPath={CodingQuiz}
+              title='CodingQuiz'
               description='App to set, update, and keep or delete personal goals.'
-              ghLink=''
-              demoLink=''
+              ghLink='https://github.com/awil414/Coding-Quiz.git'
+              demoLink='https://awil414.github.io/Coding-Quiz/'
             />
           </Col>
         </Row>
