@@ -27,7 +27,7 @@ const Resume = () => {
       </div>
       <MDBRow >
         <MDBCol sm='6'>
-          <MDBCard className='resume-card'>
+          <MDBCard  className='resume-card'>
             <MDBCardBody>
               <MDBCardTitle className='section-title'>Summary</MDBCardTitle>
               <MDBCardText>
