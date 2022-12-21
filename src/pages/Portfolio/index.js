@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "../../components/Project.js";
+import Project from "../../components/Project/Project.js";
 import goalE from "../../images/Projects/goalE.png";
 import SocNetworkAPI from "../../images/Projects/SocNetworkAPI.png";
 import SideBeat from "../../images/Projects/SideBeat.png";
@@ -39,7 +39,7 @@ function Portfolio() {
               title='Goal-E'
               description='Goal-E is a full-stack application that was developed to help users write goals. The user is given the option to "get started" or "log in". After signing up or logging in, the user can create a goal and add a description. The created goal will appear in the profile. Once a goal is created, then the user can edit that goal. An option also exists to complete the goal, which deletes it from the profile.'
               ghLink='https://github.com/awil414/Goal-E.git'
-              demoLink=''
+              demoLink='https://evening-stream-22967.herokuapp.com/'
             />
           </Col>
           <Col md={6} className='project-card'>
