@@ -54,7 +54,7 @@ function Navbar({ currentPage, setCurrentPage }) {
       </div>
       <div className='right'>
         <ul>
-          <li className='nav-tagline'>Tagline goes here.</li>
+          <li className='nav-tagline'>Boundless possibilities.</li>
         </ul>
       </div>
     </div>

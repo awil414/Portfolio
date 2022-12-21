@@ -32,7 +32,10 @@ a {
   }
   
   .project-icon {
-    list-style: none;
+        color: white !important;
+        /* position: absolute; */
+        text-align: left;
+        /* padding-right: 50px; */
     cursor: pointer;
     font-size: 30px;
     /* display: inline-block; */

@@ -10,15 +10,15 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
-
+/* 
 footer h3 {
   color: white;
   font-size: 17px;
   font-weight: bolder;
   margin: 0;
-}
+} */
 
-footer h3,
+/* footer h3, */
 footer div {
   text-align: center;
   width: 100%;
@@ -26,7 +26,7 @@ footer div {
 
 footer a {
   color: white;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -37,6 +37,6 @@ footer a:hover {
 .ftr-icon {
   list-style: none;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 28px;
   display: inline-block;
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import { VscGithub } from "react-icons/vsc";
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { GoMarkGithub } from "react-icons/go";
+import { GrLinkedin } from "react-icons/gr";
 import { TfiInstagram } from "react-icons/tfi";
-import { HiOutlineMail } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
 // import {GiRhinocerosHorn} from 'react-icons/gi';
 import "./style.css";
 
@@ -14,17 +14,17 @@ function Footer() {
         <ul>
           <a href='https://github.com/awil414'>
             <li className='ftr-icon'>
-              <VscGithub />
+              <GoMarkGithub />
             </li>
           </a>
           <a href='https://www.linkedin.com/in/amber-wilson-255272217/'>
             <li className='ftr-icon'>
-              <AiOutlineLinkedin />
+              <GrLinkedin />
             </li>
           </a>
           <a href='mailto:awil414@gmail.com'>
             <li className='ftr-icon'>
-              <HiOutlineMail />
+              <MdEmail />
             </li>
           </a>
           <a href='https://www.instagram.com/amb_wilson/'>

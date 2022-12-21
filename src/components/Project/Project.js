@@ -9,7 +9,8 @@ import {
   MDBBtn,
   MDBContainer,
   MDBRow,
-  MDBCol
+  MDBCol,
+  MDBCardFooter
   // MDBCardText,
   // MDBCardBody,
 
@@ -85,13 +86,15 @@ export default function Project(props)  {
         </div>
       {/* </MDBRipple> */}
       </MDBCard>
-      <MDBRow >
-        {/* <MDBCol><MDBBtn className='custom-btn' href={props.demoLink}>{props.title}</MDBBtn></MDBCol> */}
-        <MDBCol><MDBBtn data-mdb-ripple-color="#44c6e3" href={props.demoLink}>{props.title}</MDBBtn></MDBCol>
-        {/* <MDBCol><MDBBtn className='custom-btn' href={props.ghLink}>@ GitHub</MDBBtn></MDBCol> */}
-        <MDBCol> <a className='project-icon' href={props.ghLink}><VscGithub /></a></MDBCol>
-        
-      </MDBRow>
+      {/* <MDBCardFooter className='card-footer'> */}
+        <MDBRow className='text-left' style= {{ maxWidth: '24rem' }}>
+          {/* <MDBCol><MDBBtn className='custom-btn' href={props.demoLink}>{props.title}</MDBBtn></MDBCol> */}
+          <MDBCol><MDBBtn data-mdb-ripple-color="#44c6e3" href={props.demoLink}>{props.title}</MDBBtn></MDBCol>
+          {/* <MDBCol><MDBBtn className='custom-btn' href={props.ghLink}>@ GitHub</MDBBtn></MDBCol> */}
+          <MDBCol> <a className='project-icon' href={props.ghLink}><VscGithub /></a></MDBCol>
+          
+        </MDBRow>
+      {/* </MDBCardFooter> */}
     </div>
   );
 }

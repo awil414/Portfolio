@@ -23,7 +23,7 @@ const Resume = () => {
     <div class='resume'>
       <div className='main-title'>
         <h2>Resume</h2>
-        <p> Download <a href={myResume} download>MY RESUME</a> </p>
+        <p> Download <a style={{ color: 'blue' }} href={myResume} download>MY RESUME</a> </p>
       </div>
       <MDBRow >
         <MDBCol sm='6'>
@@ -33,13 +33,12 @@ const Resume = () => {
               <MDBCardText>
                 <p>
                   <em>
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    Full-Stack programmer with Accounting, Sales, and Entrepreneur experience.
                   </em>
                 </p>
                 <ul className='res-list'>
-                  <li>amber.wilson.code@gmail.com</li>
-                  <li>(615) 337-1797</li>
+                  <li>E-mail: amber.wilson.code@gmail.com</li>
+                  <li>Phone: (615) 337-1797</li>
                 </ul>
               </MDBCardText>
             </MDBCardBody>

@@ -23,3 +23,7 @@ ul li::marker {
   color: #6a994e !important;
   font-size: 1.3em;
 }
+
+.main-title {
+    text-align: center;
+}
