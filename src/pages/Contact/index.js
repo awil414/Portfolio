@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./style.css";
 // import { MDBInput, MDBBtn, MDBCard, MDBTextArea } from "mdb-react-ui-kit";
 
-
 const styles = {
   backgroundStyle: {
     background: "#3E5E82",
@@ -70,8 +69,8 @@ export default function ContactForm() {
       </p>
      
       <div className='row justify-content-center'>
-        <form className='contact-card' onSubmit={handleSubmit}>
-          {submitted && valid ? <div class='success-message'>Success! Thank you for leaving me a message!</div> : null }
+        <form className='contact-form' onSubmit={handleSubmit}>
+          {submitted && valid ? <div class='success-message'>Success! Message sent</div> : null }
           <div className='form-outline mb-4'>
             <input
               type='text'
