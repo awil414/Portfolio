@@ -54,7 +54,7 @@ export default function ContactForm() {
       <h2 style={styles.headingStyle}>Want to Connect?</h2>
       <p className='info'>
         Email:{" "}
-        <a href='mailto://amber.wilson.code@gmail.com'>
+        <a href='mailto:amber.wilson.code@gmail.com'>
           {" "}
           amber.wilson.code@gmail.com
         </a>
