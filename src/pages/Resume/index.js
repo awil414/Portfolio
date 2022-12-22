@@ -125,7 +125,7 @@ const Resume = () => {
                     Increased product position within territory, relationship
                     building and educating.
                   </li>
-                  <li>More text here.</li>
+                  <li>Top 10% producer within first year of acquiring territory.</li>
                 </ul>
               </MDBCardText>
             </MDBCardBody>

@@ -29,7 +29,7 @@ function Portfolio() {
     <Container fluid style={styles.backgroundStyle} className='portfolio-page'>
       <Container>
         <span>
-          <h2 style={styles.headingStyle}>My Work</h2>
+          <h2 style={styles.headingStyle}>My Works</h2>
         </span>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
