@@ -11,8 +11,8 @@ import {
 const styles = {
   backgroundStyle: {
     background: "#3E5E82",
-    backgoundSize: 'cover',
   },
+  
   headingStyle: {
     fontSize: "30px",
     textAlign: "center",
