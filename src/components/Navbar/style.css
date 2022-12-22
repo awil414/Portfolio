@@ -11,12 +11,12 @@
 ul {
   list-style-type: none;
 }
+
 li a:hover {
   transition: 0.5s ease;
   color: #3e5e82 !important;
 }
 
-/* How do I get tagline to the right, but not bad looking on mobile and in-line with hrefs?? */
 .nav-tagline {
   font-family: Satisfy !important;
   font-size: 20px;
@@ -27,7 +27,7 @@ li a:hover {
   padding-right: 50px;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .right {
     display: none !important;
   }

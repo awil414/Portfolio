@@ -21,9 +21,7 @@ const styles = {
     fontSize: "20px",
     textAlign: "center",
     verticalAlign: "middle",
-    // lineHeight: '90px',
     color: "white",
-    // padding: '10px',
   },
 };
 

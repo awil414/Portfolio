@@ -3,13 +3,11 @@ import { GoMarkGithub } from "react-icons/go";
 import { GrLinkedin } from "react-icons/gr";
 import { TfiInstagram } from "react-icons/tfi";
 import { MdEmail } from "react-icons/md";
-// import {GiRhinocerosHorn} from 'react-icons/gi';
 import "./style.css";
 
 function Footer() {
   return (
     <footer>
-      {/* <h3>Made by Amber Wilson <GiRhinocerosHorn /><span className='heart' role='img' aria-labelledby='heart'></span></h3> */}
       <div class='container d-flex justify-content-center'>
         <ul>
           <a href='https://github.com/awil414'>

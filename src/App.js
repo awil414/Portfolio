@@ -1,7 +1,5 @@
 import React from "react";
-import BgImage from "./images/backgroundimg.jpeg";
 import Header from "./components/Header/Header";
-// import PortfolioContainer from './components/PortfolioContainer';
 import Footer from "./components/Footer";
 import { useState } from "react";
 import About from "./pages/About";
@@ -28,32 +26,11 @@ function App() {
       return <Resume />;
     }
   };
-  // Old version
-  /*
-    <div className='App'> 
-      <Header setCurrentPage={setCurrentPage}/> 
-      <div 
-      // className='bg-img'
-      // style= {{
-      //   backgroundImage: `url(${BgImage})`
-      // }}
-      >
-      
-      {renderPage()}
-      </div>
-     
-       <PortfolioContainer /> 
-      {/* <Footer />
-      </div>
-  */
 
   return (
     <div className='App'>
       <Header setCurrentPage={setCurrentPage} />
-
       {renderPage()}
-
-      {/* <PortfolioContainer /> */}
       <Footer />
     </div>
   );

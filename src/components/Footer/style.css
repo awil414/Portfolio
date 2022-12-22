@@ -1,5 +1,3 @@
-/* How do I get the icons down and both the h3 and icons centered? */
-
 footer {
   background: #6a994e;
   width: 100%;
@@ -10,15 +8,7 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
-/* 
-footer h3 {
-  color: white;
-  font-size: 17px;
-  font-weight: bolder;
-  margin: 0;
-} */
 
-/* footer h3, */
 footer div {
   text-align: center;
   width: 100%;

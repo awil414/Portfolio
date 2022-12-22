@@ -1,42 +1,39 @@
 .img-blur {
-    position: realative;
-    display: inline-block;
+  position: realative;
+  display: inline-block;
 }
 
 .img-blur:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: inset 0 0 10px #ffffff;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 10px #ffffff;
 }
 
 .custom-btn {
-    font-size: 12px;
-    background: white;
-    color: red;
-    align-items: center;
+  font-size: 12px;
+  background: white;
+  color: red;
+  align-items: center;
 }
 
 a {
-    color: white;
-    /* padding: 15px; */
-    text-align: left;
-  }
-  
-  a:hover, .MDBButton {
-    transition: 0.3s ease;
-    color: #1f87ff !important;
-  }
-  
-  .project-icon {
-        color: white !important;
-        /* position: absolute; */
-        text-align: left;
-        /* padding-right: 50px; */
-    cursor: pointer;
-    font-size: 30px;
-    /* display: inline-block; */
-  }
+  color: white;
+  text-align: left;
+}
+
+a:hover,
+.MDBButton {
+  transition: 0.3s ease;
+  color: #1f87ff !important;
+}
+
+.project-icon {
+  color: white !important;
+  text-align: left;
+  cursor: pointer;
+  font-size: 30px;
+}

@@ -7,11 +7,9 @@ import planner from "../../images/Projects/planner.png";
 import eCommerce from "../../images/Projects/eCommerce.png";
 import CodingQuiz from "../../images/Projects/CodingQuiz.png";
 import "./style.css";
-
 import { Container, Row, Col } from "react-bootstrap";
 
 const styles = {
-
   backgroundStyle: {
     background: "#3E5E82",
   },
@@ -99,4 +97,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
