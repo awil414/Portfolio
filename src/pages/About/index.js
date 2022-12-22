@@ -23,9 +23,9 @@ export default function About() {
           <MDBCol md='7' className='about-text'>
             <p>
               I am a full-stack developer based in Nashville, TN with a
-              certification from Vanderbilt University. I have a background in
-              Accounting and Sales, and own my own business. Check out my
-              portfolio page! If you want to know more about me, my work, or buy
+              certification from Vanderbilt University. Check out my
+              portfolio page! I have a background in
+              Accounting and Sales, and I own my own business.  If you want to know more about me, or my work, or want to buy
               me a lemonade at the bottom of the Grand Canyon, let's talk.
             </p>
           </MDBCol>

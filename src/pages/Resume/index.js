@@ -25,7 +25,7 @@ const Resume = () => {
         <h2>Resume</h2>
         <p> Download <a style={{ color: 'blue' }} href={myResume} download>MY RESUME</a> </p>
       </div>
-      <MDBRow >
+      <MDBRow className="h-100 ">
         <MDBCol sm='6'>
           <MDBCard  className='resume-card'>
             <MDBCardBody>
