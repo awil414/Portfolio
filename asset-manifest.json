@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c72e1069.css",
-    "main.js": "/Portfolio/static/js/main.969b91d6.js",
+    "main.css": "/Portfolio/static/css/main.433d7b00.css",
+    "main.js": "/Portfolio/static/js/main.43f32f09.js",
     "static/media/goalE.png": "/Portfolio/static/media/goalE.fc59ca31c944dd664e59.png",
     "static/media/SideBeat3.png": "/Portfolio/static/media/SideBeat3.d65109f20c6cb4e620af.png",
     "static/media/SocNetworkAPI.png": "/Portfolio/static/media/SocNetworkAPI.060786c166f5c7c124e2.png",
@@ -12,11 +12,11 @@
     "static/media/CodingQuiz.png": "/Portfolio/static/media/CodingQuiz.7898600df68c139b3119.png",
     "static/media/aresume.pdf": "/Portfolio/static/media/aresume.8f5bf044ee7438ed14fc.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.c72e1069.css.map": "/Portfolio/static/css/main.c72e1069.css.map",
-    "main.969b91d6.js.map": "/Portfolio/static/js/main.969b91d6.js.map"
+    "main.433d7b00.css.map": "/Portfolio/static/css/main.433d7b00.css.map",
+    "main.43f32f09.js.map": "/Portfolio/static/js/main.43f32f09.js.map"
   },
   "entrypoints": [
-    "static/css/main.c72e1069.css",
-    "static/js/main.969b91d6.js"
+    "static/css/main.433d7b00.css",
+    "static/js/main.43f32f09.js"
   ]
 }
