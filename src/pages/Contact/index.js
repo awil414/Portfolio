@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { MDBInput, MDBBtn, MDBCard, MDBTextArea } from "mdb-react-ui-kit";
-import { toHaveFormValues } from "@testing-library/jest-dom/dist/matchers";
+
 
 const styles = {
   backgroundStyle: {
@@ -25,7 +25,9 @@ export default function ContactForm() {
     message: '',
   });
 
-  const  [status, setStatus] = useState(false);
+  // const [status, setStatus] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [valid, setValid] = useState(false);
 
   const handleName = (e) => {
     setValues({...values, name: e.target.value});
@@ -40,9 +42,9 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if(values.name && values.email && values.message){
-      setStatus(true)
+      setValid(true)
     }
-    // setStatus("");
+    setSubmitted(true);
   };
   
   return (
@@ -68,8 +70,8 @@ export default function ContactForm() {
       </p>
      
       <div className='row justify-content-center'>
-        {status}
         <MDBCard className='contact-card' onSubmit={handleSubmit}>
+          {submitted && valid ? <div class='success-message'>Success! Thank you for leaving me a message!</div> : null }
           <div className='form-outline mb-4'>
             <MDBInput
               type='text'
@@ -79,6 +81,7 @@ export default function ContactForm() {
               className='contact-input'
               onChange={handleName}
             ></MDBInput>
+            {submitted && !values.name ? <span className="name-error">Please enter your name</span> : null }
           </div>
           <div className='form-outline mb-4'>
             <MDBInput
@@ -89,6 +92,7 @@ export default function ContactForm() {
               className='contact-input'
               onChange={handleEmail}
             ></MDBInput>
+            {submitted && !values.email ? <span className="email-error">Please enter an email address</span> : null }
           </div>
           <div className='form-outline mb-4'>
             <MDBTextArea
@@ -100,10 +104,10 @@ export default function ContactForm() {
               className='contact-input'
               onChange={handleMessage}
             ></MDBTextArea>
+            {submitted && !values.message ? <span className="message-error">Please enter a message</span> : null }
           </div>
-
           <MDBBtn type='submit' className='mb-4' block>
-            {setStatus} Send
+            Send
           </MDBBtn>
         </MDBCard>
       </div>
