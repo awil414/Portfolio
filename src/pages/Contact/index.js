@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import { MDBInput, MDBBtn, MDBCard, MDBTextArea } from "mdb-react-ui-kit";
+// import { MDBInput, MDBBtn, MDBCard, MDBTextArea } from "mdb-react-ui-kit";
 
 
 const styles = {
@@ -70,32 +70,32 @@ export default function ContactForm() {
       </p>
      
       <div className='row justify-content-center'>
-        <MDBCard className='contact-card' onSubmit={handleSubmit}>
+        <form className='contact-card' onSubmit={handleSubmit}>
           {submitted && valid ? <div class='success-message'>Success! Thank you for leaving me a message!</div> : null }
           <div className='form-outline mb-4'>
-            <MDBInput
+            <input
               type='text'
               placeholder='Your name'
               value={values.name}
               name='text'
               className='contact-input'
               onChange={handleName}
-            ></MDBInput>
+            ></input>
             {submitted && !values.name ? <span className="name-error">Please enter your name</span> : null }
           </div>
           <div className='form-outline mb-4'>
-            <MDBInput
+            <input
               type='email'
               placeholder='Email address'
               value={values.email}
               name='text'
               className='contact-input'
               onChange={handleEmail}
-            ></MDBInput>
+            ></input>
             {submitted && !values.email ? <span className="email-error">Please enter an email address</span> : null }
           </div>
           <div className='form-outline mb-4'>
-            <MDBTextArea
+            <textarea
               rows='4'
               type='text'
               placeholder='Message'
@@ -103,13 +103,11 @@ export default function ContactForm() {
               name='text'
               className='contact-input'
               onChange={handleMessage}
-            ></MDBTextArea>
+            ></textarea>
             {submitted && !values.message ? <span className="message-error">Please enter a message</span> : null }
           </div>
-          <MDBBtn type='submit' className='mb-4' block>
-            Send
-          </MDBBtn>
-        </MDBCard>
+          <button type='submit' className='btn btn-primary btn-block mb-4'>Send</button>
+        </form>
       </div>
     </div>
   );
