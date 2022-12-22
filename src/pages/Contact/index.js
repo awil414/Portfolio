@@ -61,7 +61,7 @@ export default function ContactForm() {
       </p>
       <p className='info'>
         GitHub:{" "}
-        <a href='https://www.linkedin.com/in/amber-wilson-255272217/'>
+        <a href='https://github.com/awil414'>
           awil414
         </a>
       </p>
