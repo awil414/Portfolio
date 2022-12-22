@@ -1,0 +1,44 @@
+.contact-card {
+    width: 25rem;
+    background-color: #3E5E82;
+    color: white;
+    align-items: center;
+    border: none;
+    padding-top: 20px;
+}
+
+.contact-page {
+    
+        /* display: flex;
+        flex-direction: row;
+        position: relative; */
+      
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    color: white;
+    text-align: center;
+}
+
+.contact-page {
+    margin-bottom: 32px;
+  }
+  
+  .contact-card {
+    margin-top: 50px;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px;
+    border: 2px solid white;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .contact-input::placeholder {
+    color: #e2e2e2;
+  }
+  
+  
