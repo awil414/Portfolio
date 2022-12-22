@@ -11,6 +11,7 @@ import {
 const styles = {
   backgroundStyle: {
     background: "#3E5E82",
+    backgoundSize: 'cover',
   },
   headingStyle: {
     fontSize: "30px",
@@ -59,8 +60,8 @@ export default function ContactForm(props) {
       <p className='info'>GitHub: <a href='https://www.linkedin.com/in/amber-wilson-255272217/'>awil414</a></p>
       <p className='info'><a href='https://www.linkedin.com/in/amber-wilson-255272217/'>LinkedIn</a></p>
     
-      <div>
-        <MDBCard alignment='m-auto align-self-center' className='contact-card' onSubmit={handleSubmit}>
+      <div className='row justify-content-center'>
+        <MDBCard  className='contact-card' onSubmit={handleSubmit}>
           <div className='form-outline mb-4'>
             <MDBInput 
               type='text'
