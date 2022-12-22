@@ -11,9 +11,10 @@ https://awil414.github.io/Portfolio/
 - REACT
 - NODE.JS
 - NPM
-- BOOTSTRAP
+- JAVASCRIPT
 - CSS3
 - HTML5
+- BOOTSTRAP
 - GITHUB PAGES
 - FONTAWESOME
 
