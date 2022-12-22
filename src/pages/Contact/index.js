@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { MDBInput, MDBBtn, MDBCard, MDBTextArea } from "mdb-react-ui-kit";
+import { toHaveFormValues } from "@testing-library/jest-dom/dist/matchers";
 
 const styles = {
   backgroundStyle: {
@@ -18,15 +19,26 @@ const styles = {
 };
 
 export default function ContactForm() {
-  const [status, setStatus] = useState("");
+  const [values, setValues] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const  [status, setStatus] = useState(false);
+
+  const handleName = (e) => {
+    setValues({...values, name: e.target.value});
+  };
+  const handleEmail = (e) => {
+    setValues({...values, email: e.target.value});
+  };
+  const handleMessage = (e) => {
+    setValues({...values, message: e.target.value});
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // props.onSubmit({
-    //   id: Math.random(Math.floor() * 1000),
-    //   text: input,
-    // });
 
     //   if (input === 'name') {
     //     setInput(value);
@@ -45,9 +57,7 @@ export default function ContactForm() {
 
     setStatus("");
   };
-  //   const handleChange = (e) => {
-  //   setInput(e.target.value);
-  // };
+  
 
   return (
     <div fluid style={styles.backgroundStyle} className='contact-page'>
