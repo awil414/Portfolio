@@ -39,26 +39,12 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    //   if (input === 'name') {
-    //     setInput(value);
-    //   } else if (input === 'email') {
-    //     setInput(value);
-    //   } else {
-    //     setInput(value);
-    //   }
-    // };
-    const { name, email, message } = e.target.elements;
-    // let conForm = {
-    //   name : name.value,
-    //   email: email.value,
-    //   message: message.value,
-    // };
-
-    setStatus("");
+    if(values.name && values.email && values.message){
+      setStatus(true)
+    }
+    // setStatus("");
   };
   
-
   return (
     <div fluid style={styles.backgroundStyle} className='contact-page'>
       <h2 style={styles.headingStyle}>Want to Connect?</h2>
@@ -80,27 +66,28 @@ export default function ContactForm() {
           LinkedIn
         </a>
       </p>
-
+     
       <div className='row justify-content-center'>
+        {status}
         <MDBCard className='contact-card' onSubmit={handleSubmit}>
           <div className='form-outline mb-4'>
             <MDBInput
               type='text'
               placeholder='Your name'
-              value={status.name}
+              value={values.name}
               name='text'
               className='contact-input'
-              // onChange={handleChange}
+              onChange={handleName}
             ></MDBInput>
           </div>
           <div className='form-outline mb-4'>
             <MDBInput
               type='email'
               placeholder='Email address'
-              value={status.email}
+              value={values.email}
               name='text'
               className='contact-input'
-              // onChange={handleChange}
+              onChange={handleEmail}
             ></MDBInput>
           </div>
           <div className='form-outline mb-4'>
@@ -108,10 +95,10 @@ export default function ContactForm() {
               rows='4'
               type='text'
               placeholder='Message'
-              value={status.message}
+              value={values.message}
               name='text'
               className='contact-input'
-              // onChange={handleChange}>
+              onChange={handleMessage}
             ></MDBTextArea>
           </div>
 
