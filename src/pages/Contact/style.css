@@ -54,7 +54,7 @@
   color: white;
 }
 
-span {
+.message-error, .email-error, .name-error {
   font-size: 12px;
   color: yellow;
   margin-bottom: 12px;
