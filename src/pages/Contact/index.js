@@ -30,7 +30,7 @@ export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [valid, setValid] = useState(false);
 
-  // Handler functions for input values
+  // Update state based on form input changes
   const handleName = (e) => {
     setValues({ ...values, name: e.target.value });
   };
@@ -41,13 +41,14 @@ export default function ContactForm() {
     setValues({ ...values, message: e.target.value });
   };
 
-  // Handler function for Submitted
+  // Submit form
   const handleSubmit = (e) => {
     e.preventDefault();
     if (values.name && values.email && values.message) {
       setValid(true);
     }
     setSubmitted(true);
+    // Clear form values
     setValues({
         name: "",
         email: "",
