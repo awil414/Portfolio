@@ -48,7 +48,11 @@ export default function ContactForm() {
       setValid(true);
     }
     setSubmitted(true);
-    // setValues('');
+    setValues({
+        name: "",
+        email: "",
+        message: "",
+    });
   };
 
   return (
