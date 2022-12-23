@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+// Navbar function sets current page on click for About, Portfolio, Resume, and Contact
 function Navbar({ currentPage, setCurrentPage }) {
   return (
     <div className='nav'>

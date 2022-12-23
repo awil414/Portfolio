@@ -9,6 +9,7 @@ import {
   MDBCol,
 } from "mdb-react-ui-kit";
 
+// Project function with props in project cards for project images, titles, and links to github and deployed/demo
 export default function Project(props) {
   return (
     <div>

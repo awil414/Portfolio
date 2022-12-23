@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
-// import { MDBInput, MDBBtn, MDBCard, MDBTextArea } from "mdb-react-ui-kit";
 
+// Styling for background and heading
 const styles = {
   backgroundStyle: {
     background: "#3E5E82",
@@ -17,35 +17,40 @@ const styles = {
   },
 };
 
+// Contact form function with export
 export default function ContactForm() {
+  // Setting up useState for input values
   const [values, setValues] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
-  // const [status, setStatus] = useState(false);
+  // Initial useState for submitted and valid
   const [submitted, setSubmitted] = useState(false);
   const [valid, setValid] = useState(false);
 
+  // Handler functions for input values
   const handleName = (e) => {
-    setValues({...values, name: e.target.value});
+    setValues({ ...values, name: e.target.value });
   };
   const handleEmail = (e) => {
-    setValues({...values, email: e.target.value});
+    setValues({ ...values, email: e.target.value });
   };
   const handleMessage = (e) => {
-    setValues({...values, message: e.target.value});
+    setValues({ ...values, message: e.target.value });
   };
 
+  // Handler function for Submitted
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(values.name && values.email && values.message){
-      setValid(true)
+    if (values.name && values.email && values.message) {
+      setValid(true);
     }
     setSubmitted(true);
+    // setValues('');
   };
-  
+
   return (
     <div fluid style={styles.backgroundStyle} className='contact-page'>
       <h2 style={styles.headingStyle}>Want to Connect?</h2>
@@ -57,20 +62,19 @@ export default function ContactForm() {
         </a>
       </p>
       <p className='info'>
-        GitHub:{" "}
-        <a href='https://github.com/awil414'>
-          awil414
-        </a>
+        GitHub: <a href='https://github.com/awil414'>awil414</a>
       </p>
       <p className='info'>
         <a href='https://www.linkedin.com/in/amber-wilson-255272217/'>
           LinkedIn
         </a>
       </p>
-     
+
       <div className='row justify-content-center'>
         <form className='contact-form' onSubmit={handleSubmit}>
-          {submitted && valid ? <div class='success-message'>Success! Message sent</div> : null }
+          {submitted && valid ? (
+            <div class='success-message'>Success! Message sent</div>
+          ) : null}
           <div className='form-outline mb-4'>
             <input
               type='text'
@@ -80,7 +84,9 @@ export default function ContactForm() {
               className='contact-input'
               onChange={handleName}
             ></input>
-            {submitted && !values.name ? <span className="name-error">Please enter your name</span> : null }
+            {submitted && !values.name ? (
+              <span className='name-error'>Please enter your name</span>
+            ) : null}
           </div>
           <div className='form-outline mb-4'>
             <input
@@ -91,7 +97,9 @@ export default function ContactForm() {
               className='contact-input'
               onChange={handleEmail}
             ></input>
-            {submitted && !values.email ? <span className="email-error">Please enter an email address</span> : null }
+            {submitted && !values.email ? (
+              <span className='email-error'>Please enter an email address</span>
+            ) : null}
           </div>
           <div className='form-outline mb-4'>
             <textarea
@@ -103,9 +111,13 @@ export default function ContactForm() {
               className='contact-input'
               onChange={handleMessage}
             ></textarea>
-            {submitted && !values.message ? <span className="message-error">Please enter a message</span> : null }
+            {submitted && !values.message ? (
+              <span className='message-error'>Please enter a message</span>
+            ) : null}
           </div>
-          <button type='submit' className='btn btn-primary btn-block mb-4'>Send</button>
+          <button type='submit' className='btn btn-primary btn-block mb-4'>
+            Send
+          </button>
         </form>
       </div>
     </div>

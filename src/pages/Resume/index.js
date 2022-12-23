@@ -10,6 +10,7 @@ import {
   MDBCol,
 } from "mdb-react-ui-kit";
 
+// Function to return Resume page 
 const Resume = () => {
   return (
     <div class='resume'>

@@ -5,6 +5,7 @@ import { TfiInstagram } from "react-icons/tfi";
 import { MdEmail } from "react-icons/md";
 import "./style.css";
 
+// Function for footer with icons and links 
 function Footer() {
   return (
     <footer>

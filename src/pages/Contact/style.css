@@ -1,5 +1,5 @@
 .contact-form {
-  width: 320px;
+  width: 350px;
   background-color: #3e5e82;
   color: white;
   align-items: center;
@@ -39,7 +39,7 @@
 }
 
 .form-outline {
-  width: 280px;
+  width: 312px;
   padding-left: 5px;
   display: flex;
   flex-direction: column;
@@ -49,6 +49,7 @@
 
 .success-message {
   background-color: #ff3a20;
+  margin-left: 10px;
   padding: 15px;
   color: white;
 }

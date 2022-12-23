@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 
+// Styling for Navbar, header and skills
 const styles = {
   navHeader: {
     background: "#6a994e",
@@ -25,6 +26,7 @@ const styles = {
   },
 };
 
+// Function for Header with setCurrentPage and Navbar
 function Header({ setCurrentPage }) {
   return (
     <div style={styles.navHeader} className='header-nav'>

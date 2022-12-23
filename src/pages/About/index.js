@@ -4,6 +4,7 @@ import AmberImage from "../../images/me.jpeg";
 import "./style.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 
+// Function to return About page on renderPage
 export default function About() {
   return (
     <div className='bg-img' style={{ backgroundImage: `url(${BgImage})` }}>

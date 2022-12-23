@@ -9,6 +9,7 @@ import CodingQuiz from "../../images/Projects/CodingQuiz.png";
 import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 
+// Styling for background color and heading
 const styles = {
   backgroundStyle: {
     background: "#3E5E82",
@@ -24,6 +25,7 @@ const styles = {
   },
 };
 
+// Function to return Portfolio on renderPage
 function Portfolio() {
   return (
     <Container fluid style={styles.backgroundStyle} className='portfolio-page'>
