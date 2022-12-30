@@ -1,140 +1,99 @@
-// import React from "react";
-// import "./style.css";
-// import myResume from "../../media/aresume.pdf";
-// import {
-//   MDBCard,
-//   MDBCardBody,
-//   MDBCardTitle,
-//   MDBCardText,
-//   MDBRow,
-//   MDBCol,
-// } from "mdb-react-ui-kit";
+import React from "react";
+import "./style.css";
+import FlipCard from "../../components/FlipCard/FlipCard.js";
+import myResume from "../../media/aresume.pdf";
+import { Row, Col } from "react-bootstrap";
 
-// // Function to return Resume page 
-// const Resume = () => {
+function Resume() {
+  return (
+    <div className="resume-container">
+      <div className='main-title'>
+         <h2>Resume</h2>
+          <p>
+           {" "}
+           Download{" "}
+           <a style={{ color: "blue" }} href={myResume} download>
+             MY RESUME
+           </a>{" "}
+         </p>
+         <ul className='res-list'>
+            <li>E-mail: amber.wilson.code@gmail.com</li>
+            <li>Phone: (615) 337-1797</li>
+          </ul>
+       </div>
+       <Row style={{ display: "flex", alignItems: "center", justifyContent: "center", paddingTop: "15px", paddingLeft: "23px", paddingBottom: "10px" }}>
+          <Col  className='col-4 showcase-card'>
+            <FlipCard
+              // imgPath={goalE}
+              // title='Goal-E'
+              // description='Goal-E is a full-stack application that was developed to help users write goals. The user is given the option to "get started" or "log in". After signing up or logging in, the user can create a goal and add a description. The created goal will appear in the profile. Once a goal is created, then the user can edit that goal. An option also exists to complete the goal, which deletes it from the profile.'
+              // ghLink='https://github.com/awil414/Goal-E.git'
+              // demoLink='https://evening-stream-22967.herokuapp.com/'
+            />
+          </Col>
+          <Col  className='col-4 showcase-card'>
+            <FlipCard
+              // imgPath={SideBeat3}
+              // title='Side Beat'
+              // description="This project was developed to build and structure a social network API using MongoDB because of its speed with large amounts of data, and flexibility with unstructured data. Users are able to share their thoughts, react to friends' thoughts, and create a friend list."
+              // ghLink='https://github.com/awil414/Side-Beat.git'
+              // demoLink='https://awil414.github.io/Side-Beat/'
+            />
+          </Col>
+        
+          <Col  className='col-4 showcase-card'>
+            <FlipCard
+              // imgPath={SocNetworkAPI}
+              // title='API for Social Network'
+              // description="This project was developed to build and structure a social network API using MongoDB because of its speed with large amounts of data, and flexibility with unstructured data. Users are able to share their thoughts, react to friends' thoughts, and create a friend list."
+              // ghLink='https://github.com/awil414/MongoDB-API-for-Social-Network-App.git'
+              // demoLink='https://drive.google.com/file/d/1D4vrsFPqIat5VqOE6rOrlxjJwm2WfPz0/view'
+            />
+          </Col>
+        </Row>
+    
+    </div>
+
+  );
+}
+export default Resume;
+
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "./styles.scss";
+
+// const cards = [
+//     {
+//       id: "1",
+//       variant: "hover",
+//       front: { title: "SKILLS" },
+//       back: "Back"
+//     },
+//     {
+//       id: "2",
+//       variant: "click",
+//       front: "Click",
+//       back: "Back"
+//     },
+//     {
+//       id: "3",
+//       variant: "focus",
+//       front: "Focus",
+//       back: "Back"
+//     }
+//   ];
+// export default function Resume() {
 //   return (
-//     <div class='resume'>
-//       <div className='main-title'>
-//         <h2>Resume</h2>
-//         <p>
-//           {" "}
-//           Download{" "}
-//           <a style={{ color: "blue" }} href={myResume} download>
-//             MY RESUME
-//           </a>{" "}
-//         </p>
+//     <div className="container">
+//       <div className="overlay-background" />
+//       <div className="overlay-border" />
+//       <div className="row h-100">
+//         <div className="col d-flex flex-column flex-md-row justify-content-around align-items-center">
+//           {cards.map((card) => (
+//             <FlipCard key={card.id} card={card} />
+//           ))}
+//         </div>
 //       </div>
-//       <MDBRow className='h-100 '>
-//         <MDBCol sm='6'>
-//           <MDBCard className='resume-card'>
-//             <MDBCardBody>
-//               <MDBCardTitle className='section-title'>Summary</MDBCardTitle>
-//               <MDBCardText>
-//                 <p>
-//                   <em>
-//                     Full-Stack programmer with Accounting, Sales, and
-//                     Entrepreneur experience.
-//                   </em>
-//                 </p>
-//                 <ul className='res-list'>
-//                   <li>E-mail: amber.wilson.code@gmail.com</li>
-//                   <li>Phone: (615) 337-1797</li>
-//                 </ul>
-//               </MDBCardText>
-//             </MDBCardBody>
-//           </MDBCard>
-//         </MDBCol>
-//         <MDBCol sm='6'>
-//           <MDBCard>
-//             <MDBCardBody>
-//               <MDBCardTitle className='section-title'>Education</MDBCardTitle>
-//               <MDBCardText className='ed-main'>
-//                 <div style={{ color: "#0c6ad5" }}>
-//                   {" "}
-//                   FULL-STACK DEVELOPER CERTIFICATION{" "}
-//                 </div>
-//                 <p className='ed-text'>
-//                   <em>Vanderbilt University</em>
-//                 </p>
-//               </MDBCardText>
-//               <MDBCardText className='ed-main'>
-//                 <div style={{ color: "#0c6ad5" }}> ACCOUNTING </div>
-//                 <p className='ed-text'>
-//                   <em>Ball State University</em>
-//                 </p>
-//               </MDBCardText>
-//             </MDBCardBody>
-//           </MDBCard>
-//         </MDBCol>
-//         <MDBCol md='12'>
-//           <MDBCard className='experience-card'>
-//             <MDBCardBody>
-//               <MDBCardTitle className='section-title'>
-//                 Professional Experience
-//               </MDBCardTitle>
-//               <MDBCardText>
-//                 <div style={{ color: "#0c6ad5" }}>
-//                   <em>Owner Operator - Certified Personal Trainer</em>
-//                 </div>
-//                 <p>Dubs Fitness</p>
-//                 <ul className='res-list'>
-//                   <li>
-//                     Self-starter, implementing a results-driven personal
-//                     training business, reaching max capacity clients within
-//                     three months.
-//                   </li>
-//                   <li>
-//                     Innovative and individualized program designer, skilled in
-//                     assessing clients needs and optimization.
-//                   </li>
-//                 </ul>
-//                 <div style={{ color: "#0c6ad5" }}>
-//                   <em>Studio Manager</em>
-//                 </div>
-//                 <p>Pure Sweat + Float Studio</p>
-//                 <ul className='res-list'>
-//                   <li>
-//                     Proactive problem-solver, supervising and training employees
-//                     and negotiating studio needs.
-//                   </li>
-//                   <li>
-//                     Efficient time-manager, prioritizing tasks and delivering a
-//                     first-class experience.
-//                   </li>
-//                 </ul>
-//                 <div style={{ color: "#0c6ad5" }}>
-//                   <em>Lead Strength and Conditioning Coach/Group Instructor</em>
-//                 </div>
-//                 <p>Iron Tribe Fitness</p>
-//                 <ul className='res-list'>
-//                   <li>
-//                     Strong emotional IQ, relationship building skills,
-//                     instructing 175+ athletes, including sales, client
-//                     engagement and retention.
-//                   </li>
-//                   <li>
-//                     High-achiever, invited to join the coaching team within a
-//                     year of being a member.
-//                   </li>
-//                 </ul>
-//                 <div style={{ color: "#0c6ad5" }}>
-//                   <em>Pharmaceutical Sales Rep</em>
-//                 </div>
-//                 <p>InVentiv Health for Beohringer Ingelheim</p>
-//                 <ul className='res-list'>
-//                   <li>
-//                     Increased product position within territory, relationship
-//                     building and educating.
-//                   </li>
-//                   <li>Top 10% producer within first year of acquiring territory.</li>
-//                 </ul>
-//               </MDBCardText>
-//             </MDBCardBody>
-//           </MDBCard>
-//         </MDBCol>
-//       </MDBRow>
 //     </div>
 //   );
-// };
+// }
 
-// export default Resume;
