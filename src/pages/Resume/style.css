@@ -18,7 +18,7 @@ body {
   line-height: "60px";
   color: "black";
   padding: "10px";
-  margin: "0";
+  margin-top: "0";
   
 }
 
@@ -29,6 +29,7 @@ ul li::marker {
 }
 */
 .main-title {
+  margin-top: 10px;
   text-align: center;
   color: white;
 } 

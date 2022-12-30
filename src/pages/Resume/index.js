@@ -9,13 +9,13 @@ function Resume() {
     <div className="resume-container">
       <div className='main-title'>
          <h2> Resume</h2>
-          <p>
+          <div>
            {" "}
            Download{" "}
            <a style={{ color: "#8ACDEA" }} href={myResume} download>
              MY RESUME
            </a>{" "}
-         </p>
+         </div>
          <ul className='res-list'>
             <li>E-mail: {" "} 
               <a style={{ color: "#8ACDEA" }} href='mailto:awil414@gmail.com'>amber.wilson.code@gmail.com</a></li>
