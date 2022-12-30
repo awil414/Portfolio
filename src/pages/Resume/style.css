@@ -1,6 +1,10 @@
-.p {
+/* .p {
   color: "black !important";
 }
+
+body {
+  margin: 0;
+  background-color: #3e5e82;
 
 .header h2 {
   font: "40px";
@@ -22,4 +26,4 @@ ul li::marker {
 
 .main-title {
   text-align: center;
-}
+} */
