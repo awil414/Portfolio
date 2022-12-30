@@ -17,7 +17,8 @@ function Resume() {
            </a>{" "}
          </p>
          <ul className='res-list'>
-            <li>E-mail: amber.wilson.code@gmail.com</li>
+            <li>E-mail: {" "} 
+              <a style={{ color: "#8ACDEA" }} href='mailto:awil414@gmail.com'>amber.wilson.code@gmail.com</a></li>
             <li>Phone: (615) 337-1797</li>
           </ul>
        </div>
