@@ -43,16 +43,18 @@
     /* Content Styling */
     font-weight: 800px;
     font-size: 40px;
-    color: white;
+    
     text-shadow: 2px 2px 10px white(0, 0, 0, 0.9);
 } 
 
 .card-front {
-    background-color: aquamarine;
+    background-color: hsl(191, 63%, 86%);
+    color: white;
 }
 
 .card-back {
-    background-color: black;
+    background-color: white;
+    color: black;
     transform: rotateY(180deg);
 }
 

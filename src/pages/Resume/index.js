@@ -8,11 +8,11 @@ function Resume() {
   return (
     <div className="resume-container">
       <div className='main-title'>
-         <h2>Resume</h2>
+         <h2> Resume</h2>
           <p>
            {" "}
            Download{" "}
-           <a style={{ color: "blue" }} href={myResume} download>
+           <a style={{ color: "#8ACDEA" }} href={myResume} download>
              MY RESUME
            </a>{" "}
          </p>
@@ -21,12 +21,12 @@ function Resume() {
             <li>Phone: (615) 337-1797</li>
           </ul>
        </div>
-       <Row style={{ display: "flex", alignItems: "center", justifyContent: "center", paddingTop: "15px", paddingLeft: "23px", paddingBottom: "10px" }}>
+       <Row style={{ display: "flex", alignItems: "center", justifyContent: "center", paddingTop: "15px", paddingBottom: "10px" }}>
           <Col  className='col-4 showcase-card'>
             <FlipCard
               // imgPath={goalE}
-              // title='Goal-E'
-              // description='Goal-E is a full-stack application that was developed to help users write goals. The user is given the option to "get started" or "log in". After signing up or logging in, the user can create a goal and add a description. The created goal will appear in the profile. Once a goal is created, then the user can edit that goal. An option also exists to complete the goal, which deletes it from the profile.'
+              name='Goal-E'
+              description='Goal-E is a full-stack'
               // ghLink='https://github.com/awil414/Goal-E.git'
               // demoLink='https://evening-stream-22967.herokuapp.com/'
             />

@@ -1,10 +1,15 @@
 /* .p {
   color: "black !important";
+} */
+
+.p {
+  color: "white !important";
 }
 
 body {
   margin: 0;
   background-color: #3e5e82;
+}
 
 .header h2 {
   font: "40px";
@@ -14,9 +19,10 @@ body {
   color: "black";
   padding: "10px";
   margin: "0";
+  
 }
 
-
+/*
 ul li::marker {
   color: #6a994e !important;
   font-size: 1.3em;
@@ -24,6 +30,7 @@ ul li::marker {
 */
 .main-title {
   text-align: center;
+  color: white;
 } 
 
 /* .res-list {
