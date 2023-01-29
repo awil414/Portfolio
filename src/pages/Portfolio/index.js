@@ -43,6 +43,8 @@ function Portfolio() {
               ghLink='https://github.com/awil414/athletetracker.git'
               demoLink='https://athletetracker.herokuapp.com/'
             />
+          </Col>
+          <Col md={6} className='project-card'>
             <Project
               imgPath={goalE}
               title='Goal-E'
@@ -51,7 +53,6 @@ function Portfolio() {
               demoLink='https://evening-stream-22967.herokuapp.com/'
             />
           </Col>
-          
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
@@ -65,6 +66,17 @@ function Portfolio() {
           </Col>
           <Col md={6} className='project-card'>
             <Project
+              imgPath={planner}
+              title='Day Planner'
+              description='This Kick Butt and Take Names Day Planner is a simple calendar application intended for an employee with a busy schedule. The app runs in the browser using jQuery to dynamically power the HTML and CSS. The user can add important events to the daily planner in order to manage their time effectively.'
+              ghLink='https://github.com/awil414/Kick-Butt-And-Take-Names-Planner.git'
+              demoLink='https://awil414.github.io/Kick-Butt-And-Take-Names-Planner/'
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className='project-card'>
+            <Project
               imgPath={SocNetworkAPI}
               title='API for Social Network'
               description="This project was developed to build and structure a social network API using MongoDB because of its speed with large amounts of data, and flexibility with unstructured data. Users are able to share their thoughts, react to friends' thoughts, and create a friend list."
@@ -72,9 +84,6 @@ function Portfolio() {
               demoLink='https://drive.google.com/file/d/1D4vrsFPqIat5VqOE6rOrlxjJwm2WfPz0/view'
             />
           </Col>
-          
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
               imgPath={eCommerce}
@@ -84,24 +93,6 @@ function Portfolio() {
               demoLink='https://drive.google.com/file/d/1thxQ0vmNVT4O6m3JryVh0MTYH_PXIIbt/view'
             />
           </Col>
-          <Col md={6} className='project-card'>
-            <Project
-              imgPath={planner}
-              title='Day Planner'
-              description='This Kick Butt and Take Names Day Planner is a simple calendar application intended for an employee with a busy schedule. The app runs in the browser using jQuery to dynamically power the HTML and CSS. The user can add important events to the daily planner in order to manage their time effectively.'
-              ghLink='https://github.com/awil414/Kick-Butt-And-Take-Names-Planner.git'
-              demoLink='https://awil414.github.io/Kick-Butt-And-Take-Names-Planner/'
-            />
-          </Col>
-          {/* <Col md={6} className='project-card'>
-            <Project
-              imgPath={CodingQuiz}
-              title='CodingQuiz'
-              description='App to set, update, and keep or delete personal goals.'
-              ghLink='https://github.com/awil414/Coding-Quiz.git'
-              demoLink='https://awil414.github.io/Coding-Quiz/'
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
