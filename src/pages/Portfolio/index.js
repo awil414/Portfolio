@@ -6,6 +6,7 @@ import SideBeat3 from "../../images/Projects/SideBeat3.png";
 import planner from "../../images/Projects/planner.png";
 import eCommerce from "../../images/Projects/eCommerce.png";
 import CodingQuiz from "../../images/Projects/CodingQuiz.png";
+import AthleteTracker from "../../images/Projects/AthleteTracker.png";
 import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -36,6 +37,13 @@ function Portfolio() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
+              imgPath={AthleteTracker}
+              title='athletetracker'
+              description='athletetracker is a MERN stack application using MongoDB and GraphQL. It was developed for a personal trainer. This app allows the user to add, update, and delete client information, as well as their electronic waiver and Venmo payment.'
+              ghLink='https://github.com/awil414/athletetracker.git'
+              demoLink='https://athletetracker.herokuapp.com/'
+            />
+            <Project
               imgPath={goalE}
               title='Goal-E'
               description='Goal-E is a full-stack application that was developed to help users write goals. The user is given the option to "get started" or "log in". After signing up or logging in, the user can create a goal and add a description. The created goal will appear in the profile. Once a goal is created, then the user can edit that goal. An option also exists to complete the goal, which deletes it from the profile.'
@@ -43,6 +51,9 @@ function Portfolio() {
               demoLink='https://evening-stream-22967.herokuapp.com/'
             />
           </Col>
+          
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
               imgPath={SideBeat3}
@@ -52,8 +63,6 @@ function Portfolio() {
               demoLink='https://awil414.github.io/Side-Beat/'
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
               imgPath={SocNetworkAPI}
@@ -63,6 +72,9 @@ function Portfolio() {
               demoLink='https://drive.google.com/file/d/1D4vrsFPqIat5VqOE6rOrlxjJwm2WfPz0/view'
             />
           </Col>
+          
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
               imgPath={eCommerce}
@@ -72,8 +84,6 @@ function Portfolio() {
               demoLink='https://drive.google.com/file/d/1thxQ0vmNVT4O6m3JryVh0MTYH_PXIIbt/view'
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className='project-card'>
             <Project
               imgPath={planner}
@@ -83,7 +93,7 @@ function Portfolio() {
               demoLink='https://awil414.github.io/Kick-Butt-And-Take-Names-Planner/'
             />
           </Col>
-          <Col md={6} className='project-card'>
+          {/* <Col md={6} className='project-card'>
             <Project
               imgPath={CodingQuiz}
               title='CodingQuiz'
@@ -91,7 +101,7 @@ function Portfolio() {
               ghLink='https://github.com/awil414/Coding-Quiz.git'
               demoLink='https://awil414.github.io/Coding-Quiz/'
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
