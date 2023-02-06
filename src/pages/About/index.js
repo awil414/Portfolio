@@ -1,5 +1,5 @@
 import React from "react";
-import BgImage from "../../images/backgroundimg.jpeg";
+import BgImage from "../../images/backgroundimg.jpg";
 import AmberImage from "../../images/me.jpeg";
 import "./style.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
@@ -18,6 +18,9 @@ export default function About() {
           <strong className='name'> I'm Amber </strong>
         </h4>
         <MDBRow>
+          <MDBCol md='5' className='about-image' imgURL={AmberImage}>
+            <div className='amber-img'></div>
+          </MDBCol>
           <MDBCol md='7' className='about-text'>
             <p>
               I'm a full-stack developer based in Nashville, TN with a
@@ -28,9 +31,7 @@ export default function About() {
               talk.
             </p>
           </MDBCol>
-          <MDBCol md='5' className='about-image' imgURL={AmberImage}>
-            <div className='amber-img'></div>
-          </MDBCol>
+          
         </MDBRow>
       </MDBContainer>
     </div>

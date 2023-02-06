@@ -4,10 +4,10 @@ import Navbar from "../Navbar";
 // Styling for Navbar, header and skills
 const styles = {
   navHeader: {
-    background: "#6a994e",
+    background: "#ffeecf",
   },
   headerStyle: {
-    background: "#3E5E82",
+    background: "#0096FF",
   },
   headingStyle: {
     fontSize: "40px",
