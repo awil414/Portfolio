@@ -3,6 +3,8 @@ import React from "react";
 import AmberImage from "../../images/me.jpeg";
 import "./style.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import Type from "./Type";
+import "./type.css";
 
 // Function to return About page on renderPage
 export default function About() {
@@ -36,7 +38,7 @@ export default function About() {
               talk.
             </p> */}
           <p className="fsd">
-            Full-Stack Developer 
+            <Type />
           </p>
           <p >
             JavaScript | MongoDB | Express | React | Node | Apollo GraphQL

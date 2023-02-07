@@ -1,0 +1,21 @@
+.Typewriter__wrapper {
+    font-size: 1.3em !important;
+    color: #62ab37!important;
+    font-weight: 800 !important;
+  }
+  .Typewriter__cursor {
+    /* font-size: 2.4em !important;
+    color: #b8336a !important; */
+    display: none !important;
+  }
+  
+  @media (max-width: 767px) { 
+    .Typewriter__wrapper {
+      font-size: .8em !important;
+      font-weight: 500 !important;
+      /* position: absolute !important; */
+    }
+    .Typewriter__cursor {
+      display: none !important;
+    }
+  }
