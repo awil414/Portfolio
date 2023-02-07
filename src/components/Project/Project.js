@@ -14,7 +14,7 @@ export default function Project(props) {
   return (
     <div>
       <MDBCard
-        style={{ maxWidth: "30rem" }}
+        style={{ maxWidth: "30rem", height: "20rem " }}
         className='mb-2 mt-4 border-2 rounded-4 text-white'
       >
         <div class='img-blur'>
