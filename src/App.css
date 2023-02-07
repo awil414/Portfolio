@@ -7,6 +7,21 @@
 
 .App {
   height: 100vh;
+  background-image: 
+    linear-gradient(
+      to bottom,
+      #0096FF,
+      #6DD5FA,
+      #ffffff
+    );
+    /* url(../../images/backgroundimg.jpg) !important; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  display: block;
+  width: 100%;
+  min-height: 100% !important;
 }
 
 .bg-img {

@@ -17,7 +17,7 @@ export default function About() {
           <span className='wave' role='img' aria-labelledby='wave'>
             👋
           </span>
-          <strong className='name'> I'm Amber </strong>
+          <strong className='name'> I'm Amber Wilson</strong>
         </h4>
         <MDBRow>
           <MDBCol md='5' className='about-image' imgURL={AmberImage}>

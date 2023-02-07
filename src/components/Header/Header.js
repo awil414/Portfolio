@@ -3,12 +3,12 @@ import Navbar from "../Navbar";
 
 // Styling for Navbar, header and skills
 const styles = {
-  navHeader: {
-    background: "#0096FF",
-  },
-  headerStyle: {
-    background: "#0096FF",
-  },
+  // navHeader: {
+  //   background: "#0096FF",
+  // },
+  // headerStyle: {
+  //   background: "#0096FF",
+  // },
   // headingStyle: {
   //   fontSize: "40px",
   //   textAlign: "center",
@@ -29,8 +29,8 @@ const styles = {
 // Function for Header with setCurrentPage and Navbar
 function Header({ setCurrentPage }) {
   return (
-    <div style={styles.navHeader} className='header-nav'>
-      <div style={styles.headerStyle} className='header'>
+    <div className='header-nav'>
+      <div className='header'>
         {/* <span>
           <h2 style={styles.headingStyle}>portfolio of Amber Wilson</h2>
           <p style={styles.skillsStyle}>

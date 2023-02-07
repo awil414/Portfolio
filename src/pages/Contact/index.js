@@ -3,9 +3,9 @@ import "./style.css";
 
 // Styling for background and heading
 const styles = {
-  backgroundStyle: {
-    background: "#3E5E82",
-  },
+  // backgroundStyle: {
+  //   background: "#3E5E82",
+  // },
   headingStyle: {
     fontSize: "30px",
     textAlign: "center",

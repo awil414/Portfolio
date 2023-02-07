@@ -12,9 +12,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 // Styling for background color and heading
 const styles = {
-  backgroundStyle: {
-    background: "#3E5E82",
-  },
+  // backgroundStyle: {
+  //   background: "#3E5E82",
+  // },
   headingStyle: {
     fontSize: "30px",
     textAlign: "center",
