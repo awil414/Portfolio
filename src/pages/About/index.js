@@ -7,32 +7,42 @@ import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 // Function to return About page on renderPage
 export default function About() {
   return (
-    <div className='bg-img' 
+    <div className='about' 
     // style={{ backgroundImage: `url(${BgImage})` }}
     >
       {" "}
       <MDBContainer className='about-container'>
-        <h4>
+        <h1>
           Welcome! {""}{" "}
           <span className='wave' role='img' aria-labelledby='wave'>
             👋
           </span>
-          <strong className='name'> I'm Amber Wilson</strong>
-        </h4>
-        <MDBRow>
-          <MDBCol md='5' className='about-image' imgURL={AmberImage}>
+          <strong className='name'> I'm Amber</strong>
+        </h1>
+        <MDBRow className='justify-content-md-center' imgURL={AmberImage}>
             <div className='amber-img'></div>
-          </MDBCol>
-          <MDBCol md='7' className='about-text'>
-            <p>
+          {/* <MDBCol md='5' className='about-image' imgURL={AmberImage}>
+            <div className='amber-img'></div>
+          </MDBCol> */}
+        </MDBRow>
+        <MDBRow md='7' className='about-text'>
+          {/* <MDBCol md='7' className='about-text'> */}
+            {/* <p>
               I'm a full-stack developer based in Nashville, TN with a
               certification from Vanderbilt University. Check out my portfolio
               page! I have a background in Accounting and Sales, and I own my
               own business. If you want to know more about me, or my work, or
               want to buy me a lemonade at the bottom of the Grand Canyon, let's
               talk.
-            </p>
-          </MDBCol>
+            </p> */}
+          <p className="fsd">
+            Full-Stack Developer 
+          </p>
+          <p >
+            JavaScript | MongoDB | Express | React | Node | Apollo GraphQL
+            
+          </p>
+          {/* </MDBCol> */}
           
         </MDBRow>
       </MDBContainer>

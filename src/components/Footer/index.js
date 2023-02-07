@@ -4,12 +4,14 @@ import { GrLinkedin } from "react-icons/gr";
 import { TfiInstagram } from "react-icons/tfi";
 import { MdEmail } from "react-icons/md";
 import "./style.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 // Function for footer with icons and links 
 function Footer() {
   return (
-    <footer>
-      <div class='container d-flex justify-content-center'>
+    <Container fluid className="footer">
+      {/* <div className='container d-flex justify-content-center'> */}
+       <Row className="footer-body">
         <ul>
           <a href='https://github.com/awil414'>
             <li className='ftr-icon'>
@@ -32,8 +34,8 @@ function Footer() {
             </li>
           </a>
         </ul>
-      </div>
-    </footer>
+      </Row> 
+    </Container>
   );
 }
 

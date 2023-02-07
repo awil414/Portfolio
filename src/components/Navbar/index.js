@@ -9,6 +9,7 @@ import { BsFillFilePersonFill } from "react-icons/bs";
 function Navbar({ currentPage, setCurrentPage }) {
   return (
     <div className='nav'>
+      
       <div className='left'>
         <ul className='nav nav-main'>
           <li className='nav-item'>
@@ -61,11 +62,7 @@ function Navbar({ currentPage, setCurrentPage }) {
           </li>
         </ul>
       </div>
-      <div className='right'>
-        <ul>
-          <li className='nav-tagline'>AW.</li>
-        </ul>
-      </div>
+      
     </div>
   );
 }

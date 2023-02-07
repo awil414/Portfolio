@@ -31,6 +31,12 @@ function Header({ setCurrentPage }) {
   return (
     <div className='header-nav'>
       <div className='header'>
+        <div className='right'>
+          {/* <ul>
+            <li className='nav-tagline'>AW.</li>
+          </ul> */}
+          <p className='nav-tagline'>Amber Wilson</p>
+        </div>
         {/* <span>
           <h2 style={styles.headingStyle}>portfolio of Amber Wilson</h2>
           <p style={styles.skillsStyle}>
@@ -40,6 +46,7 @@ function Header({ setCurrentPage }) {
         </span> */}
       </div>
       <Navbar setCurrentPage={setCurrentPage} />
+      
     </div>
   );
 }

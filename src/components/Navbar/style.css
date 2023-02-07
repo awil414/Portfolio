@@ -2,12 +2,16 @@
   overflow: hidden;
   position: relative;
   display: flex;
-  padding: 10px;
+  padding: 15px;
+  padding-top: 0;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
 
+.left {
+  padding-top: 0px;
+}
 .nav-link {
   color: black !important;
   position: relative;
@@ -29,14 +33,21 @@ li a:hover {
   font-family: Satisfy !important;
   font-size: 40px;
   color: white !important;
-  position: absolute;
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 0;
+  /* position: absolute;
   right: 0;
   text-align: right;
-  padding-right: 70px;
+  padding-right: 70px; */
 }
 
-@media only screen and (max-width: 600px) {
+/* .right {
+  text-align: center;
+} */
+
+/* @media only screen and (max-width: 600px) {
   .right {
     display: none !important;
   }
-}
+} */
