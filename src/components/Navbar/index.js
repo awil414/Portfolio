@@ -1,5 +1,9 @@
 import React from "react";
 import "./style.css";
+import { BiHome } from "react-icons/bi";
+import { GrDocumentText } from "react-icons/gr";
+import { MdOutlinePhotoSizeSelectActual } from "react-icons/md";
+import { BsFillFilePersonFill } from "react-icons/bs";
 
 // Navbar function sets current page on click for About, Portfolio, Resume, and Contact
 function Navbar({ currentPage, setCurrentPage }) {
@@ -15,7 +19,8 @@ function Navbar({ currentPage, setCurrentPage }) {
                 currentPage === "About" ? "nav-link active" : "nav-link"
               }
             >
-              About Me
+              <BiHome style={{ marginBottom: '3px' }} />
+             /About Me
             </a>
           </li>
           <li className='nav-item'>
@@ -26,7 +31,8 @@ function Navbar({ currentPage, setCurrentPage }) {
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
-              Portfolio
+              <MdOutlinePhotoSizeSelectActual style={{ marginBottom: "3px" }} />
+              /Portfolio
             </a>
           </li>
           <li className='nav-item'>
@@ -37,7 +43,8 @@ function Navbar({ currentPage, setCurrentPage }) {
                 currentPage === "Resume" ? "nav-link active" : "nav-link"
               }
             >
-              Resume
+              <GrDocumentText style= {{ marginBottom: '3px' }} />
+              /Resume
             </a>
           </li>
           <li className='nav-item'>
@@ -48,14 +55,15 @@ function Navbar({ currentPage, setCurrentPage }) {
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >
-              Contact
+              <BsFillFilePersonFill style={{ marginBottom: "3px" }}/>
+              /Contact
             </a>
           </li>
         </ul>
       </div>
       <div className='right'>
         <ul>
-          <li className='nav-tagline'>Boundless possibilities.</li>
+          <li className='nav-tagline'>AW.</li>
         </ul>
       </div>
     </div>

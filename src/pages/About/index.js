@@ -1,5 +1,5 @@
 import React from "react";
-import BgImage from "../../images/backgroundimg.jpg";
+// import BgImage from "../../images/backgroundimg.jpg";
 import AmberImage from "../../images/me.jpeg";
 import "./style.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
@@ -7,7 +7,9 @@ import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 // Function to return About page on renderPage
 export default function About() {
   return (
-    <div className='bg-img' style={{ backgroundImage: `url(${BgImage})` }}>
+    <div className='bg-img' 
+    // style={{ backgroundImage: `url(${BgImage})` }}
+    >
       {" "}
       <MDBContainer className='about-container'>
         <h4>

@@ -1,11 +1,12 @@
 .bg-img {
   background-image: 
-    /* linear-gradient(
+    linear-gradient(
       to bottom,
-      hsla(0, 0%, 32%, 0.6),
-      hsla(213, 49%, 47%, 0.3)
-    ), */
-    url(../../images/backgroundimg.jpg) !important;
+      #0096FF,
+      #6DD5FA,
+      #ffffff
+    );
+    /* url(../../images/backgroundimg.jpg) !important; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,8 +14,8 @@
   display: block;
   width: 100%;
   min-height: 100% !important;
-  color: black;
-}
+  color: black; 
+} 
 
 .about-container {
   padding-top: 20px;
