@@ -18,7 +18,11 @@
 } 
 
 .about-container {
-  padding-top: 20px;
+  padding-top: 40px;
+  /* margin-top: 60px; */
+  border: .5px solid;
+  box-shadow: 5px 8px 5px #888888;
+  border-radius: 4px;
 }
 
 .about-text {
