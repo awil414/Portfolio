@@ -37,9 +37,9 @@ export default function Project(props) {
 
         </MDBCardBody>
       </MDBCard>
-      <MDBRow className='text-left' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
+      <MDBRow className='align-items-center' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
         <MDBCol >
-          <MDBBtn size={'sm'} data-mdb-ripple-color='#44c6e3' href={props.demoLink}>
+          <MDBBtn size={'sm'} data-mdb-ripple-color='#44c6e3' style={{ float: 'right' }} href={props.demoLink}>
             CLICK TO SEE
           </MDBBtn>
         </MDBCol>

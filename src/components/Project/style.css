@@ -38,7 +38,7 @@ a:hover,
   /* text-align: right; */
   cursor: pointer;
   font-size: 25px;
-  text-align: center;
+  float: center;
 }
 
 .card-foot {
