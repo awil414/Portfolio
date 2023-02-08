@@ -39,8 +39,8 @@ export default function Project(props) {
       </MDBCard>
       <MDBRow className='text-left' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
         <MDBCol >
-          <MDBBtn data-mdb-ripple-color='#44c6e3' href={props.demoLink}>
-            {props.title}
+          <MDBBtn size={'sm'} data-mdb-ripple-color='#44c6e3' href={props.demoLink}>
+            CLICK TO SEE
           </MDBBtn>
         </MDBCol>
         <MDBCol>
