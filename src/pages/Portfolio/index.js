@@ -61,7 +61,7 @@ function Portfolio() {
           <Col md={4} className='project-card'>
             <Project
               imgPath={SideBeat3}
-              title='Side Beat'
+              title='Side Be@t'
               description="Using 3rd Party APIs, users enter a band name and are returned a list of similar artists with a link to their concert tickets in a preferred zipcode."
               ghLink='https://github.com/awil414/Side-Beat.git'
               demoLink='https://awil414.github.io/Side-Beat/'
