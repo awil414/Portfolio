@@ -7,6 +7,9 @@ import {
   MDBBtn,
   MDBRow,
   MDBCol,
+  MDBCardBody,
+  MDBCardTitle,
+  MDBCardText
 } from "mdb-react-ui-kit";
 
 // Project function with props in project cards for project images, titles, and links to github and deployed/demo
@@ -15,7 +18,7 @@ export default function Project(props) {
     <div>
       <MDBCard
         style={{ maxWidth: "30rem", height: "20rem " }}
-        className='mb-2 mt-4 border-2 rounded-4 text-white'
+        className='mb-2 mt-4 border-2 rounded-4 text-black'
       >
         <div class='img-blur'>
           <MDBCardImage
@@ -25,9 +28,17 @@ export default function Project(props) {
             alt='card-img'
           />
         </div>
+        <MDBCardBody >
+          <MDBCardTitle style={{ textAlign: 'center' }} > {props.title}</MDBCardTitle>
+
+          <MDBCardText style={{ textAlign: "justify" }}>
+          {props.description}
+          </MDBCardText>
+
+        </MDBCardBody>
       </MDBCard>
-      <MDBRow className='text-left' style={{ maxWidth: "24rem" }}>
-        <MDBCol>
+      <MDBRow className='text-left' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
+        <MDBCol >
           <MDBBtn data-mdb-ripple-color='#44c6e3' href={props.demoLink}>
             {props.title}
           </MDBBtn>

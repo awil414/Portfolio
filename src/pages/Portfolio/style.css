@@ -1,0 +1,16 @@
+/* .Project.description {
+    font-size: 10px;
+} */
+
+p.card-text {
+    font-size: 10px;
+}
+
+.card-body {
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+P.description {
+    font-size: 10px;
+}
