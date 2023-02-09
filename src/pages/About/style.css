@@ -80,6 +80,10 @@ h2 {
   background-position: 8px;
 }
 
+.more-about {
+  padding-top: 25px;
+}
+
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;

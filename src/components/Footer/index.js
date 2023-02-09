@@ -9,7 +9,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // Function for footer with icons and links 
 function Footer() {
   return (
-    <Container fluid className="footer">
+    <Container  className="footer">
       {/* <div className='container d-flex justify-content-center'> */}
        <Row className="footer-body">
         <ul>

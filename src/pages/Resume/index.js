@@ -11,20 +11,24 @@ import {
 } from "mdb-react-ui-kit";
 import Slide from "react-reveal";
 import { Col, Row, Container } from "react-bootstrap";
+import { FiDownload } from "react-icons/fi";
 
 // Function to return Resume page
 const Resume = () => {
   return (
     <div class='resume'>
       <div className='main-title'>
-        <h1 style={{ fontSize: '28px' }}>Resume</h1>
-        <p>
-          {" "}
-          Download{" "}
-          <a style={{ color: "blue" }} href={myResume} download>
-            MY RESUME
-          </a>{" "}
-        </p>
+        <h1 style={{ fontSize: '28px' }}>Download my resume</h1>
+        <MDBRow className="justify-content-md-center" >
+          <div className='resume-link'>
+            <a style={{ color: 'white', textDecoration: 'none' }} href={myResume}>MY RESUME {''} </a>{''}
+            &nbsp; 
+          
+             <FiDownload />
+            
+          </div> {''}
+
+        </MDBRow>
       </div>
       {/* <MDBRow className='h-100 '>
         <MDBCol sm='6'>
