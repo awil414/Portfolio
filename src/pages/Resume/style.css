@@ -1,7 +1,3 @@
-/* .p {
-  color: "black !important";
-} */
-
 .p {
   color: "white !important";
 }
@@ -30,10 +26,6 @@ span {
 .bsu {
   padding-top: 15px;
 }
-/* body {
-  margin: 0;
-  background-color: #3e5e82;
-} */
 
 .header h2 {
   font: "40px";

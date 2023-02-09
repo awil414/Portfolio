@@ -14,9 +14,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 // Styling for background color and heading
 const styles = {
-  // backgroundStyle: {
-  //   background: "#3E5E82",
-  // },
   headingStyle: {
     fontSize: "26px",
     textAlign: "center",
@@ -31,7 +28,7 @@ const styles = {
 // Function to return Portfolio on renderPage
 function Portfolio() {
   return (
-    <Container fluid style={styles.backgroundStyle} className='portfolio-page'>
+    <Container fluid className='portfolio-page'>
       <Container>
         <span>
           <h5 style={styles.headingStyle}>My Recent Projects</h5>

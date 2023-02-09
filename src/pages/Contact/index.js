@@ -3,9 +3,6 @@ import "./style.css";
 
 // Styling for background and heading
 const styles = {
-  // backgroundStyle: {
-  //   background: "#3E5E82",
-  // },
   headingStyle: {
     fontSize: "30px",
     textAlign: "center",
@@ -57,7 +54,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div fluid style={styles.backgroundStyle} className='contact-page'>
+    <div fluid className='contact-page'>
       <h2 style={styles.headingStyle}>Want to Connect?</h2>
       <p className='info'>
         Email:{" "}

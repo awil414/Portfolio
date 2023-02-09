@@ -18,19 +18,241 @@ const Resume = () => {
   return (
     <div class='resume'>
       <div className='main-title'>
-        <h1 style={{ fontSize: '28px' }}>Download my resume</h1>
-        <MDBRow className="justify-content-md-center" >
+        <h1 style={{ fontSize: "28px" }}>Download my resume</h1>
+        <MDBRow className='justify-content-md-center'>
           <div className='resume-link'>
-            <a style={{ color: 'white', textDecoration: 'none' }} href={myResume}>MY RESUME {''} </a>{''}
-            &nbsp; 
-          
-             <FiDownload />
-            
-          </div> {''}
-
+            <a
+              style={{ color: "white", textDecoration: "none" }}
+              href={myResume}
+            >
+              MY RESUME {""}{" "}
+            </a>
+            {""}
+            &nbsp;
+            <FiDownload />
+          </div>{" "}
+          {""}
         </MDBRow>
       </div>
-      {/* <MDBRow className='h-100 '>
+      <section className='resume-btm'>
+        <Slide left duration={1300}>
+          <Row className='row education'>
+            <Col className='three columns header-col'>
+              <h1>
+                <span
+                  style={{
+                    textDecoration: "underline",
+                    textDecorationColor: "orange",
+                  }}
+                >
+                  Education
+                </span>
+              </h1>
+
+              <div className='nine columns main-col'>
+                <div className='row item'>
+                  <div
+                    className='educ-title'
+                    style={{ fontWeight: "bolder", fontSize: "20px" }}
+                  >
+                    Full-Stack Developer Certification{" "}
+                  </div>
+                  <div
+                    className='resume-list'
+                    style={{ fontStyle: "italic", fontSize: "15px" }}
+                  >
+                    Vanderbilt University * 2023
+                  </div>
+                  <div className='mern'>
+                    HTML, CSS, JavaScript, MERN Stack, Apollo/GraphQL
+                  </div>
+                </div>
+                <div className='row item'>
+                  <div className='nasm' style={{ fontSize: "20px" }}>
+                    Certified Personal Trainer
+                  </div>
+                  <div
+                    className='resume-list'
+                    style={{ fontStyle: "italic", fontSize: "15px" }}
+                  >
+                    National Academy of Sports Medicine
+                  </div>
+                </div>
+                <div className='row item'>
+                  <div className='bsu' style={{ fontSize: "20px" }}>
+                    B.S. Accounting
+                  </div>
+                  <div
+                    className='resume-list'
+                    style={{ fontStyle: "italic", fontSize: "15px" }}
+                  >
+                    Ball State University
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col className='three columns header-col'>
+              <h1>
+                <span
+                  style={{
+                    textDecoration: "underline",
+                    textDecorationColor: "orange",
+                  }}
+                >
+                  Work
+                </span>
+              </h1>
+
+              <div className='nine columns main-col'>
+                <div className='row item'>
+                  <div
+                    className='educ-title'
+                    style={{ fontWeight: "bolder", fontSize: "20px" }}
+                  >
+                    Owner Operator{" "}
+                  </div>
+                  <div
+                    className='resume-list'
+                    style={{ fontStyle: "italic", fontSize: "15px" }}
+                  >
+                    Dubs Fitness, LLC
+                  </div>
+                  <div className='mern'>Something here about what I do.</div>
+                </div>
+                <div className='row item'>
+                  <div
+                    className='manager'
+                    style={{ fontWeight: "bolder", fontSize: "20px" }}
+                  >
+                    Manager{" "}
+                  </div>
+                  <div
+                    className='resume-list'
+                    style={{ fontStyle: "italic", fontSize: "15px" }}
+                  >
+                    Pure Sweat + Float Studio
+                  </div>
+                  <div className='mern'>
+                    Led and trained team members at multiple studios.
+                  </div>
+                </div>
+                <div className='row item'>
+                  <div className='bsu' style={{ fontSize: "20px" }}>
+                    Pharmaceutical Sales Rep
+                  </div>
+                  <div
+                    className='resume-list'
+                    style={{ fontStyle: "italic", fontSize: "15px" }}
+                  >
+                    Ventiv Health
+                  </div>
+                  <div className='mern'>Something here about sales.</div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Slide>
+        <br></br>
+        <Slide left duration={1300}>
+          <div className='row skill'>
+            <div className='three columns header-col'>
+              <h1>
+                <span
+                  style={{
+                    textDecoration: "underline",
+                    textDecorationColor: "orange",
+                  }}
+                >
+                  Skills
+                </span>
+              </h1>
+            </div>
+
+            <div className='nine columns main-col'>
+              <p>skills message</p>
+            </div>
+          </div>
+
+          <Container fluid>
+            <Row
+              align='center'
+              justify='center'
+              direction='row'
+              style={{ height: "300px" }}
+            >
+              <Col xs={5}>
+                HTML
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "90%" }}
+                  ></div>
+                </div>
+                CSS
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "70%" }}
+                  ></div>
+                </div>
+                Javascript
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "75%" }}
+                  ></div>
+                </div>
+                Bootstrap
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "75%" }}
+                  ></div>
+                </div>
+              </Col>
+              <Col xs={1}></Col>
+              <Col xs={5}>
+                React
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "72%" }}
+                  ></div>
+                </div>
+                MongoDB
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "78%" }}
+                  ></div>
+                </div>
+                Apollo / GraphQL
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "40%" }}
+                  ></div>
+                </div>
+                Node
+                <div className='progress-bar-container'>
+                  <div
+                    className='progress-bar-indicator'
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </Slide>
+      </section>
+    </div>
+  );
+};
+
+export default Resume;
+
+{
+  /* <MDBRow className='h-100 '>
         <MDBCol sm='6'>
           <MDBCard className='resume-card'>
             <MDBCardBody>
@@ -138,196 +360,5 @@ const Resume = () => {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-      </MDBRow> */}
-      <section className='resume-btm'>
-        <Slide left duration={1300}>
-          <Row className='row education'>
-            <Col className='three columns header-col'>
-              <h1>
-                <span
-                  style={{
-                    textDecoration: "underline",
-                    textDecorationColor: "orange",
-                  }}
-                >
-                  Education
-                </span>
-              </h1>
-
-              <div className='nine columns main-col'>
-                <div className='row item'>
-                  <div
-                    className='educ-title'
-                    style={{ fontWeight: "bolder", fontSize: "20px" }}
-                  >
-                    Full-Stack Developer Certification{" "}
-                  </div>
-                  <div
-                    className='resume-list'
-                    style={{ fontStyle: "italic", fontSize: "15px" }}
-                  >
-                    Vanderbilt University * 2023
-                  </div>
-                  <div className='mern'>
-                    HTML, CSS, JavaScript, MERN Stack, Apollo/GraphQL
-                  </div>
-                </div>
-                <div className='row item'>
-                  <div className='nasm' style={{ fontSize: "20px" }}>
-                    Certified Personal Trainer
-                  </div>
-                  <div
-                    className='resume-list'
-                    style={{ fontStyle: "italic", fontSize: "15px" }}
-                  >
-                    National Academy of Sports Medicine
-                  </div>
-                </div>
-                <div className='row item'>
-                  <div className='bsu' style={{ fontSize: "20px" }}>
-                    B.S. Accounting
-                  </div>
-                  <div
-                    className='resume-list'
-                    style={{ fontStyle: "italic", fontSize: "15px" }}
-                  >
-                    Ball State University
-                  </div>
-                </div>
-              </div>
-            </Col>
-            <Col className='three columns header-col'>
-              <h1>
-                <span
-                  style={{
-                    textDecoration: "underline",
-                    textDecorationColor: "orange",
-                  }}
-                >
-                  Work
-                </span>
-              </h1>
-
-              <div className='nine columns main-col'>
-                
-                <div className='row item'>
-                  <div
-                    className='educ-title'
-                    style={{ fontWeight: "bolder", fontSize: "20px" }}
-                  >
-                    Owner Operator{" "}
-                  </div>
-                  <div
-                    className='resume-list'
-                    style={{ fontStyle: "italic", fontSize: "15px" }}
-                  >
-                    Dubs Fitness, LLC
-                  </div>
-                  <div className='mern'>
-                    Something here about what I do.
-                  </div>
-                </div>
-                <div className='row item'>
-                  <div
-                    className='manager'
-                    style={{ fontWeight: "bolder", fontSize: "20px" }}
-                  >
-                    Manager{" "}
-                  </div>
-                  <div
-                    className='resume-list'
-                    style={{ fontStyle: "italic", fontSize: "15px" }}
-                  >
-                    Pure Sweat + Float Studio
-                  </div>
-                  <div className='mern'>
-                    Led and trained team members at multiple studios.
-                  </div>
-                </div>
-                <div className='row item'>
-                  <div className='bsu' style={{ fontSize: "20px" }}>
-                    Pharmaceutical Sales Rep
-                  </div>
-                  <div
-                    className='resume-list'
-                    style={{ fontStyle: "italic", fontSize: "15px" }}
-                  >
-                    Ventiv Health
-                  </div>
-                  <div className='mern'>
-                    Something here about sales.
-                  </div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Slide>
-            <br></br>
-        <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span
-                style={{
-                  textDecoration: "underline",
-                  textDecorationColor: "orange",
-                }}
-                >Skills</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <p>skills message</p>
-
-              
-            </div>
-          </div>
-       
-          <Container fluid>
-            <Row align="center" justify="center" direction="row" style={{ height: '300px' }} >
-                <Col xs={5} >HTML
-                    <div className="progress-bar-container">
-                        <div className="progress-bar-indicator" style={{ width:"90%" }}></div>
-                    </div>
-                      CSS
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"70%" }}></div>
-                    </div>
-                      Javascript
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"75%" }}></div>
-                    </div>
-                      Bootstrap
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"75%" }}></div>
-                    </div>
-                </Col>
-                <Col xs={1} >
-                </Col>
-                <Col xs={5} >React
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"72%" }}></div>
-                    </div>
-                      MongoDB
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"78%" }}></div>
-                    </div>
-                    Apollo / GraphQL
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"40%" }}></div>
-                    </div>
-                      Node
-                    <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"80%" }}></div>
-                    </div>
-                  </Col>
-                </Row>
-
-              </Container>
-        </Slide>
-      </section>
-    </div>
-  );
-};
-
-export default Resume;
+      </MDBRow> */
+}
