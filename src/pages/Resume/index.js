@@ -291,7 +291,7 @@ const Resume = () => {
                     </div>
                       Javascript
                     <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"80%" }}></div>
+                      <div className="progress-bar-indicator" style={{ width:"75%" }}></div>
                     </div>
                       Bootstrap
                     <div className="progress-bar-container">
@@ -302,7 +302,7 @@ const Resume = () => {
                 </Col>
                 <Col xs={5} >React
                     <div className="progress-bar-container">
-                      <div className="progress-bar-indicator" style={{ width:"75%" }}></div>
+                      <div className="progress-bar-indicator" style={{ width:"72%" }}></div>
                     </div>
                       MongoDB
                     <div className="progress-bar-container">
