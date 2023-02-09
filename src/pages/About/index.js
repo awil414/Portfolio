@@ -16,32 +16,33 @@ export default function About() {
     >
       {" "}
       <MDBContainer className='about-container'>
-        <h1>
+        <h2>
           Welcome! {""}{" "}
           <span className='wave' role='img' aria-labelledby='wave'>
             👋
           </span>
           <strong className='name'> I'm Amber</strong>
-        </h1>
-        <MDBRow className='justify-content-md-center' imgURL={AmberImage}>
+        </h2>
+        <MDBRow className='justify-content-md-center' >
+          {/* imgURL={AmberImage}>
+          <div className='amber-img'></div> */}
+          <MDBCol md='4' className='about-image' imgURL={AmberImage}>
             <div className='amber-img'></div>
-          {/* <MDBCol md='5' className='about-image' imgURL={AmberImage}>
-            <div className='amber-img'></div>
-          </MDBCol> */}
-        </MDBRow>
-        <MDBRow md='7' className='about-text'>
-          {/* <MDBCol md='7' className='about-text'> */}
-            {/* <p>
-              I'm a full-stack developer based in Nashville, TN with a
-              certification from Vanderbilt University. Check out my portfolio
-              page! I have a background in Accounting and Sales, and I own my
-              own business. If you want to know more about me, or my work, or
-              want to buy me a lemonade at the bottom of the Grand Canyon, let's
-              talk.
-            </p> */}
-          <p className="fsd">
+          </MDBCol>
+        
+        {/* <MDBRow md='7' className='about-text'> */}
+          <MDBCol md='8' className='about-text'> 
+            <p>
+              I'm an <span style={{ color: 'green', fontSize: '16px' }} >entrepreneur </span>, seasoned at building partnerships, fostering collaborative relationships,
+              and acting as <span style={{ color: 'green', fontSize: '16px'}} >translator between business users and internal teams</span>.
+              I'm bringing these skills, along with my strong work ethic, to my tech career. Based in Middle Tennessee, I have a Full-Stack Web Developer
+              certification form Vanderbilt University.
+              
+            </p> 
+          </MDBCol>
+          {/* <p className="fsd">
             <Type />
-          </p>
+          </p> */}
           <p >
             JavaScript | MongoDB | Express | React | Node | Apollo GraphQL
             

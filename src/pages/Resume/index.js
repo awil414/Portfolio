@@ -17,7 +17,7 @@ const Resume = () => {
   return (
     <div class='resume'>
       <div className='main-title'>
-        <h2>Resume</h2>
+        <h1 style={{ fontSize: '28px' }}>Resume</h1>
         <p>
           {" "}
           Download{" "}

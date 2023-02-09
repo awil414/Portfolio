@@ -32,13 +32,14 @@
 
 .about-text {
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  /* padding-bottom: 30px; */
+  text-align: left;
 }
 
 h2 {
   text-align: center;
-  font-family: Satisfy;
+  font-family: Poppins;
 }
 
 .justify-content-md-center {
@@ -66,10 +67,14 @@ h2 {
   width: 15%;
 }
 
+.about-image {
+  padding-bottom: 15px;
+}
+
 .amber-img {
   background-image: url(../../images/me.jpeg);
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border-radius: 170px;
   background-size: cover;
   background-position: 8px;
