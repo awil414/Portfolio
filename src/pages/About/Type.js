@@ -9,7 +9,8 @@ function Type() {
                     'Full-Stack Developer',
                     'Dedicated Team-Member',
                     'Entrepreneur',
-                    'Avid Hiker',
+                    'Back-End Developer',
+                    'Front-End Developer'
                 ],
                 autoStart: true,
                 loop: true,

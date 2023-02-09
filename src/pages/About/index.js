@@ -48,6 +48,9 @@ export default function About() {
           
         </MDBRow>
       </MDBContainer>
+      <MDBContainer className='more-about' >
+        
+      </MDBContainer>
     </div>
   );
 }
