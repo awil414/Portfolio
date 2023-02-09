@@ -6,6 +6,30 @@
   color: "white !important";
 }
 
+.resume-btm {
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.resume {
+  margin-top: 0;
+}
+
+span {
+  font-size: 30px;
+}
+
+.manager {
+  padding-top: 15px;
+}
+
+.nasm {
+  padding-top: 15px;
+}
+
+.bsu {
+  padding-top: 15px;
+}
 /* body {
   margin: 0;
   background-color: #3e5e82;
@@ -41,3 +65,36 @@ li a:hover {
 /* .res-list {
   list-style-type: disc !important;
 } */
+
+/* relative here */
+.progress-bar-container {
+  height: 20px;
+  width: 100%;
+  margin: 10px 0px;
+  background: white;
+  position:relative; 
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 173, 107, 0.1);
+}
+
+.progress-bar-indicator::before {
+  content:"";
+  margin-right: 40px;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: linear-gradient(to right, darkblue, blue, lightblue);
+}
+
+.progress-bar-indicator {
+  height: 100%;
+  border-radius: 25px;
+  -webkit-mask:linear-gradient(#fff 0 0);
+          mask:linear-gradient(#fff 0 0);
+  animation: load 4s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  width: 0;
+  float: left;
+}

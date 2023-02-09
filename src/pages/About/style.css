@@ -54,8 +54,16 @@ h2 {
   text-align: center;
 }
 
-.about-img {
-  
+.resume-link {
+  margin-top: 14px;
+  justify-content: center;
+  padding: 8px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  width: 15%;
 }
 
 .amber-img {

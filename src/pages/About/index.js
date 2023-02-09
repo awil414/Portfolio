@@ -2,9 +2,11 @@ import React from "react";
 // import BgImage from "../../images/backgroundimg.jpg";
 import AmberImage from "../../images/me.jpeg";
 import "./style.css";
-import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdb-react-ui-kit";
 import Type from "./Type";
 import "./type.css";
+import myResume from "../../media/aresume.pdf";
+
 
 // Function to return About page on renderPage
 export default function About() {
@@ -48,7 +50,14 @@ export default function About() {
           
         </MDBRow>
       </MDBContainer>
+      {''}
       <MDBContainer className='more-about' >
+        <MDBRow className="justify-content-md-center" >
+          <div className='resume-link'>
+            <a style={{ color: 'green', textDecoration: 'none' }} href={myResume}>MY RESUME</a>
+          </div> {''}
+
+        </MDBRow>
         
       </MDBContainer>
     </div>
