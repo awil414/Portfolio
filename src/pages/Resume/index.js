@@ -61,7 +61,7 @@ const Resume = () => {
                     className='educ-title'
                     style={{ fontWeight: "bolder", fontSize: "20px" }}
                   >
-                    Full-Stack Developer Certification{" "}
+                    Full-Stack Web Developer Certification{" "}
                   </div>
                   <div
                     className='resume-list'
@@ -145,15 +145,15 @@ const Resume = () => {
                 </div>
                 <div className='row item'>
                   <div className='bsu' style={{ fontSize: "20px" }}>
-                    Pharmaceutical Sales Rep
+                    Lead Coach - Individual and Group
                   </div>
                   <div
                     className='resume-list'
                     style={{ fontStyle: "italic", fontSize: "15px" }}
                   >
-                    InVentiv Health
+                    Iron Tribe Fitness
                   </div>
-                  <div className='mern'>Something here about sales.</div>
+                  <div className='mern'>Something here about bridging clients and internal team.</div>
                 </div>
               </div>
             </Col>
