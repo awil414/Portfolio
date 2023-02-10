@@ -18,9 +18,14 @@ const Resume = () => {
   return (
     <div class='resume'>
       <div className='main-title'>
-        <h1 style={{ fontSize: "28px" }}>Download my resume</h1>
+        <h1 style={{ fontSize: "25px" }}>Download my resume</h1>
         <MDBRow className='justify-content-md-center'>
-          <div className='resume-link'>
+          <div className='text-center'>
+            <a href={myResume} className='btn btn-success btn-lg'>
+                MY RESUME &nbsp; <FiDownload />
+            </a>
+          </div>
+          {/* <div className='resume-link'>
             <a
               style={{ color: "white", textDecoration: "none" }}
               href={myResume}
@@ -31,7 +36,7 @@ const Resume = () => {
             &nbsp;
             <FiDownload />
           </div>{" "}
-          {""}
+          {""} */}
         </MDBRow>
       </div>
       <section className='resume-btm'>
@@ -103,7 +108,7 @@ const Resume = () => {
                 </span>
               </h1>
 
-              <div className='nine columns main-col'>
+              <div className='work'>
                 <div className='row item'>
                   <div
                     className='educ-title'

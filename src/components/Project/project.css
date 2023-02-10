@@ -1,3 +1,21 @@
+/* .crd-ftr-btn {
+  gap: "6px";
+} */
+
+.project-icon {
+  color: black !important;
+  /* text-align: right; */
+  cursor: pointer;
+  font-size: 25px;
+  /* float: center; */
+  /* padding-top: 10px; */
+}
+
+a:hover,
+.MDBButton {
+  transition: 0.3s ease;
+  color: #1f87ff !important;
+}
 /* .img-blur {
   position: relative;
   display: inline-block;
@@ -33,13 +51,7 @@ a:hover,
   color: #1f87ff !important;
 }
 
-.project-icon {
-  color: black !important;
-  text-align: right;
-  cursor: pointer;
-  font-size: 25px;
-  float: center;
-}
+
 
 .card-foot {
   align-items: center;

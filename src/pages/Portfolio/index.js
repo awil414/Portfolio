@@ -33,7 +33,7 @@ function Portfolio() {
         <span>
           <h5 style={styles.headingStyle}>My Recent Projects</h5>
         </span>
-        <Row className='row gx-5' style={{ justifyContent: "center", paddingBottom: "20px" }}>
+        <Row className='row gx-5' style={{ justifyContent: "center", marginTop: "15px", paddingBottom: "20px" }}>
           <Col md={4} className='project-card'>
             <Project 
               imgPath={athletetracker}

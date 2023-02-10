@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./project.css";
 import { VscGithub } from "react-icons/vsc";
 import {
   MDBCard,
@@ -34,18 +34,24 @@ export default function Project(props) {
           <MDBCardTitle style={{ textAlign: 'center' }} > {props.title}</MDBCardTitle>
 
           <MDBCardText 
-          // style={{ textAlign: "justify" }}
+          style={{ textAlign: "center" }}
           >
           {props.description}
           </MDBCardText>
 
         </MDBCardBody>
-        <MDBCardFooter>
-          <MDBBtn size={'sm'}  
-          // style={{ float: 'right' }} 
-          href={props.demoLink}>
-            CLICK TO SEE
-          </MDBBtn>
+        <MDBCardFooter >
+          <center>
+            <MDBBtn  size={'sm'}  
+            // style={{ float: 'right' }} 
+            href={props.demoLink}>
+              CLICK TO SEE
+            </MDBBtn>
+            &nbsp;&nbsp;&nbsp;
+            <a className='project-icon' href={props.ghLink}>
+              <VscGithub />
+            </a>
+          </center>
         </MDBCardFooter>
       </MDBCard>
 
