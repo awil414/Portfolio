@@ -42,10 +42,10 @@ export default function Project(props) {
         </MDBCardBody>
         <MDBCardFooter >
           <center>
-            <MDBBtn  size={'sm'}  
+            <MDBBtn  size={'md'}  
             // style={{ float: 'right' }} 
             href={props.demoLink}>
-              CLICK TO SEE
+              {props.title}
             </MDBBtn>
             &nbsp;&nbsp;&nbsp;
             <a className='project-icon' href={props.ghLink}>

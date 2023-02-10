@@ -106,7 +106,7 @@ const Resume = () => {
                     textDecorationColor: "orange",
                   }}
                 >
-                  Work
+                  Experience
                 </span>
               </h1>
 

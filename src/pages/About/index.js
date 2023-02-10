@@ -13,7 +13,7 @@ export default function About({ currentPage, setCurrentPage }) {
       {" "}
       <MDBContainer className='about-container'>
         <h2>
-          Welcome! {""}{" "}
+          Hello! {""}{" "}
           <span className='wave' role='img' aria-labelledby='wave'>
             👋
           </span>
@@ -27,7 +27,7 @@ export default function About({ currentPage, setCurrentPage }) {
             <p>
               I'm an{" "}
               <span style={{ color: "green", fontSize: "16px" }}>
-                entrepreneur{" "}
+                entrepreneur
               </span>
               , seasoned at building partnerships, fostering collaborative
               relationships, and acting as{" "}
