@@ -1,14 +1,13 @@
 import React from "react";
 import AmberImage from "../../images/me.jpeg";
 import "./style.css";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdb-react-ui-kit";
+import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import Type from "./Type";
 import "./type.css";
 import myResume from "../../media/aresume.pdf";
-import { FiDownload } from "react-icons/fi";
 
 // Function to return About page on renderPage
-export default function About() {
+export default function About({ currentPage, setCurrentPage }) {
   return (
     <div className='about'>
       {" "}
@@ -21,13 +20,9 @@ export default function About() {
           <strong className='name'> I'm Amber</strong>
         </h2>
         <MDBRow className='justify-content-md-center'>
-          {/* imgURL={AmberImage}>
-          <div className='amber-img'></div> */}
           <MDBCol md='4' className='about-image' imgURL={AmberImage}>
             <div className='amber-img'></div>
           </MDBCol>
-
-          {/* <MDBRow md='7' className='about-text'> */}
           <MDBCol md='8' className='about-text'>
             <p>
               I'm an{" "}
@@ -44,29 +39,19 @@ export default function About() {
               Developer certification from Vanderbilt University.
             </p>
           </MDBCol>
-          {/* <p className="fsd">
-            <Type />
-          </p> */}
           <p>JavaScript | MongoDB | Express | React | Node | Apollo GraphQL</p>
         </MDBRow>
       </MDBContainer>
       {""}
       <MDBContainer className='more-about'>
         <MDBRow className='justify-content-md-center'>
-          <div className='resume-link'>
-            <a
-              style={{ color: "green", textDecoration: "none" }}
-              href={myResume}
-            >
-              MY RESUME {""}{" "}
-            </a>
-            {""}
-            &nbsp;
-            <i className='download-icon'>
-              <FiDownload />
-            </i>
-          </div>{" "}
-          {""}
+          <MDBCol>
+            <div className='text-center'>
+              <a href={myResume} className='btn btn-success'>
+                MY RESUME {""}{" "}
+              </a>
+            </div>
+          </MDBCol>
         </MDBRow>
       </MDBContainer>
     </div>

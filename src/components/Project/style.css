@@ -1,4 +1,4 @@
-.img-blur {
+/* .img-blur {
   position: relative;
   display: inline-block;
 }
@@ -35,7 +35,7 @@ a:hover,
 
 .project-icon {
   color: black !important;
-  /* text-align: right; */
+  text-align: right;
   cursor: pointer;
   font-size: 25px;
   float: center;
@@ -49,4 +49,4 @@ a:hover,
 
 .crdfoot-btn {
   width: 50%
-}
+} */

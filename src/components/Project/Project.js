@@ -9,16 +9,17 @@ import {
   MDBCol,
   MDBCardBody,
   MDBCardTitle,
-  MDBCardText
+  MDBCardText,
+  MDBCardFooter
 } from "mdb-react-ui-kit";
 
 // Project function with props in project cards for project images, titles, and links to github and deployed/demo
 export default function Project(props) {
   return (
     <div>
-      <MDBCard
-        style={{ maxWidth: "30rem", height: "20rem " }}
-        className='mb-2 mt-4 border-2 rounded-4 text-black'
+      <MDBCard className='h-100'
+        style={{ maxWidth: "30rem"}}
+        // className='mb-2 mt-4 border-2 rounded-4 text-black'
       >
         <div class='img-blur'>
           <MDBCardImage
@@ -26,20 +27,33 @@ export default function Project(props) {
             overlay
             src={props.imgPath}
             alt='card-img'
+            position='top'
           />
         </div>
         <MDBCardBody >
           <MDBCardTitle style={{ textAlign: 'center' }} > {props.title}</MDBCardTitle>
 
-          <MDBCardText style={{ textAlign: "justify" }}>
+          <MDBCardText 
+          // style={{ textAlign: "justify" }}
+          >
           {props.description}
           </MDBCardText>
 
         </MDBCardBody>
+        <MDBCardFooter>
+          <MDBBtn size={'sm'}  
+          // style={{ float: 'right' }} 
+          href={props.demoLink}>
+            CLICK TO SEE
+          </MDBBtn>
+        </MDBCardFooter>
       </MDBCard>
-      <MDBRow className='align-items-center' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
+
+
+
+      {/* <MDBRow className='align-items-center' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
         <MDBCol >
-          <MDBBtn size={'sm'} data-mdb-ripple-color='#44c6e3' style={{ float: 'right' }} href={props.demoLink}>
+          <MDBBtn size={'sm'}  style={{ float: 'right' }} href={props.demoLink}>
             CLICK TO SEE
           </MDBBtn>
         </MDBCol>
@@ -49,7 +63,7 @@ export default function Project(props) {
             <VscGithub />
           </a>
         </MDBCol>
-      </MDBRow>
+      </MDBRow> */}
     </div>
   );
 }
