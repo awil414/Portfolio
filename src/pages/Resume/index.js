@@ -42,7 +42,8 @@ const Resume = () => {
       <section className='resume-btm'>
         <Slide left duration={1300}>
           <Row className='row education'>
-            <Col className='three columns header-col'>
+            <Col md={1}></Col>
+            <Col md={5} className='education'>
               <h1>
                 <span
                   style={{
@@ -96,7 +97,8 @@ const Resume = () => {
                 </div>
               </div>
             </Col>
-            <Col className='three columns header-col'>
+            <Col md={1}></Col>
+            <Col className='work'>
               <h1>
                 <span
                   style={{
@@ -108,7 +110,7 @@ const Resume = () => {
                 </span>
               </h1>
 
-              <div className='work'>
+              <div className='work-examples'>
                 <div className='row item'>
                   <div
                     className='educ-title'
@@ -149,7 +151,7 @@ const Resume = () => {
                     className='resume-list'
                     style={{ fontStyle: "italic", fontSize: "15px" }}
                   >
-                    Ventiv Health
+                    InVentiv Health
                   </div>
                   <div className='mern'>Something here about sales.</div>
                 </div>
@@ -159,7 +161,7 @@ const Resume = () => {
         </Slide>
         <br></br>
         <Slide left duration={1300}>
-          <div className='row skill'>
+          <div className='skill'>
             <div className='three columns header-col'>
               <h1>
                 <span
@@ -215,7 +217,7 @@ const Resume = () => {
                   ></div>
                 </div>
               </Col>
-              <Col xs={1}></Col>
+              <Col xs={1}> </Col>
               <Col xs={5}>
                 React
                 <div className='progress-bar-container'>

@@ -7,7 +7,14 @@
   margin-top: 25px;
 }
 .work {
-  padding-right: 12px;
+  /* padding-left: 40px; */
+  padding-right: 30px;
+  margin-right: 20px;
+}
+.education {
+  padding-left: 20px;
+  padding-right: 0;
+  
 }
 
 
@@ -31,6 +38,11 @@ span {
   padding-top: 15px;
 }
 
+.skill {
+  margin-top: 25px;
+  text-align: center;
+  margin-left: -4.0rem !important;
+}
 .header h2 {
   font: "40px";
   text-align: "center";
@@ -52,7 +64,17 @@ ul li::marker {
   margin-top: 10px;
   text-align: center;
   color: white;
+  margin-bottom: 40px;
 } 
+
+/* .col-1-5 {
+  flex: 0 0 12.3%;
+    max-width: 12.3%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+} */
 
 li a:hover {
   transition: 0.5s ease;
@@ -65,7 +87,7 @@ li a:hover {
 /* relative here */
 .progress-bar-container {
   height: 20px;
-  width: 100%;
+  width: 80%;
   margin: 10px 0px;
   background: white;
   position:relative; 
