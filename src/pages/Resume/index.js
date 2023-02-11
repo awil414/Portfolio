@@ -129,7 +129,7 @@ const Resume = () => {
                     Pure Sweat + Float Studio
                   </div>
                   <div className='mern'>
-                    Balanced client-facing relationships with internal-facing problem solving and leadership.
+                    Balanced client-facing relationships, collaborative relationships, and internal-facing problem solving and leadership.
                   </div>
                 </div>
                 <div className='row item'>
@@ -142,7 +142,7 @@ const Resume = () => {
                   >
                     Iron Tribe Fitness
                   </div>
-                  <div className='mern'>Something here about bridging clients and internal team.</div>
+                  <div className='mern'>Grew from client to coach, resulting in high-impact levels with both clients and internal team members.</div>
                 </div>
               </div>
             </Col>
@@ -165,7 +165,7 @@ const Resume = () => {
             </div>
 
             <div className='nine columns main-col'>
-              <p>skills message</p>
+              <p>My proficiency in a sample of languages, databases, and frameworks:</p>
             </div>
           </div>
 
@@ -181,7 +181,7 @@ const Resume = () => {
                 <div className='progress-bar-container'>
                   <div
                     className='progress-bar-indicator'
-                    style={{ width: "90%" }}
+                    style={{ width: "88%" }}
                   ></div>
                 </div>
                 CSS

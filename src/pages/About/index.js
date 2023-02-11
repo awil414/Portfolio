@@ -28,8 +28,8 @@ export default function About({ currentPage, setCurrentPage }) {
               I'm an{" "}
               <span style={{ color: "green", fontSize: "16px" }}>
                 entrepreneur
-              </span>
-              , seasoned at building partnerships, fostering collaborative
+              </span> {" "}
+               seasoned at building partnerships, fostering collaborative
               relationships, and acting as{" "}
               <span style={{ color: "green", fontSize: "16px" }}>
                 translator between business users and internal teams
@@ -51,7 +51,7 @@ export default function About({ currentPage, setCurrentPage }) {
                 MY RESUME {""}{" "}
               </a>
             </div>
-          </MDBCol>
+          </MDBCol> 
         </MDBRow>
       </MDBContainer>
     </div>
