@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fb759e74.css",
-    "main.js": "/Portfolio/static/js/main.785334f2.js",
+    "main.css": "/Portfolio/static/css/main.a127cb43.css",
+    "main.js": "/Portfolio/static/js/main.5f82105f.js",
     "static/media/AthleteTracker.png": "/Portfolio/static/media/AthleteTracker.393db4c11785b1483b55.png",
     "static/media/SocNetworkAPI.png": "/Portfolio/static/media/SocNetworkAPI.060786c166f5c7c124e2.png",
     "static/media/me.jpeg": "/Portfolio/static/media/me.c0d3f58b17e21718d2e3.jpeg",
@@ -13,11 +13,11 @@
     "static/media/Calendar.jpeg": "/Portfolio/static/media/Calendar.4c5268016c894bbd065f.jpeg",
     "static/media/Concert.jpg": "/Portfolio/static/media/Concert.01906e84bf3651044deb.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.fb759e74.css.map": "/Portfolio/static/css/main.fb759e74.css.map",
-    "main.785334f2.js.map": "/Portfolio/static/js/main.785334f2.js.map"
+    "main.a127cb43.css.map": "/Portfolio/static/css/main.a127cb43.css.map",
+    "main.5f82105f.js.map": "/Portfolio/static/js/main.5f82105f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb759e74.css",
-    "static/js/main.785334f2.js"
+    "static/css/main.a127cb43.css",
+    "static/js/main.5f82105f.js"
   ]
 }
