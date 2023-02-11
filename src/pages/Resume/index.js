@@ -13,6 +13,7 @@ import Slide from "react-reveal";
 import { Col, Row, Container } from "react-bootstrap";
 import { FiDownload } from "react-icons/fi";
 
+
 // Function to return Resume page
 const Resume = () => {
   return (

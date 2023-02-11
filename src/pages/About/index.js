@@ -35,8 +35,8 @@ export default function About({ currentPage, setCurrentPage }) {
                 translator between business users and internal teams
               </span>
               . I'm bringing these skills, along with my strong work ethic, to
-              my tech career. Based in Middle Tennessee, I have a Full-Stack Web
-              Developer certification from Vanderbilt University.
+              my tech career. Based in Middle Tennessee, I'm a Full-Stack Web
+              Developer with a certification from Vanderbilt University.
             </p>
           </MDBCol>
           <p>JavaScript | MongoDB | Express | React | Node | Apollo GraphQL</p>
@@ -47,7 +47,7 @@ export default function About({ currentPage, setCurrentPage }) {
         <MDBRow className='justify-content-md-center'>
           <MDBCol>
             <div className='text-center'>
-              <a href={myResume} className='btn btn-success'>
+              <a href={myResume} className='btn btn-success btn-lg'>
                 MY RESUME {""}{" "}
               </a>
             </div>

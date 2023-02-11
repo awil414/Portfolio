@@ -31,7 +31,7 @@ function Portfolio() {
     <Container fluid className='portfolio-page'>
       <Container>
         <span>
-          <h5 style={styles.headingStyle}>My Recent Projects</h5>
+          <h5 style={styles.headingStyle}>My recent projects</h5>
         </span>
         <Row className='row gx-5' style={{ justifyContent: "center", marginTop: "15px", paddingBottom: "20px" }}>
           <Col md={4} className='project-card'>
