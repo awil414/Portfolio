@@ -38,7 +38,7 @@ function Portfolio() {
             <Project 
               imgPath={athletetracker}
               title='athletetracker'
-              description='Client tracker built with MERN stack and Apollo that helps personal trainers store client information, payment, and waivers.' style={{ fontSize: "10px" }}
+              description='Client tracker built with MERN stack and Apollo that helps personal trainers store client info, payment, and waivers.' style={{ fontSize: "10px" }}
               ghLink='https://github.com/awil414/athletetracker.git'
               demoLink='https://athletetracker.herokuapp.com/'
             />
@@ -59,7 +59,7 @@ function Portfolio() {
             <Project
               imgPath={SideBeat3}
               title='Side Be@t'
-              description="Using 3rd Party APIs, users enter a band name and are returned a list of similar artists with a link to their concert tickets in a preferred zipcode."
+              description="Using 3rd Party APIs, users enter a band name and are returned a list of similar artists and links to their concerts."
               ghLink='https://github.com/awil414/Side-Beat.git'
               demoLink='https://awil414.github.io/Side-Beat/'
             />
