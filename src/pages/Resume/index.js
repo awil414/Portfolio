@@ -26,18 +26,6 @@ const Resume = () => {
                 MY RESUME &nbsp; <FiDownload />
             </a>
           </div>
-          {/* <div className='resume-link'>
-            <a
-              style={{ color: "white", textDecoration: "none" }}
-              href={myResume}
-            >
-              MY RESUME {""}{" "}
-            </a>
-            {""}
-            &nbsp;
-            <FiDownload />
-          </div>{" "}
-          {""} */}
         </MDBRow>
       </div>
       <section className='resume-btm'>
@@ -125,7 +113,7 @@ const Resume = () => {
                   >
                     Dubs Fitness, LLC
                   </div>
-                  <div className='mern'>Something here about what I do.</div>
+                  <div className='mern'>Created personal training business, increasing clientele to 100% capacity within six months.</div>
                 </div>
                 <div className='row item'>
                   <div
@@ -141,7 +129,7 @@ const Resume = () => {
                     Pure Sweat + Float Studio
                   </div>
                   <div className='mern'>
-                    Led and trained team members at multiple studios.
+                    Balanced client-facing relationships with internal-facing problem solving and leadership.
                   </div>
                 </div>
                 <div className='row item'>
