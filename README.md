@@ -4,8 +4,7 @@ Hello! Welcome to my GitHub repository for my portfolio website! Follow the link
 https://awil414.github.io/Portfolio/
 
 ## HomePage View
-
-<img width="1280" alt="Screen Shot 2022-12-21 at 9 33 48 PM" src="https://user-images.githubusercontent.com/109228469/209054439-42fcd928-c2ad-40ad-9484-4eff3eee188c.png">
+<img width="1280" alt="Screen Shot 2023-02-11 at 12 42 59 AM" src="https://user-images.githubusercontent.com/109228469/218244772-1e45965d-6d75-4bd2-9885-e84a9fcceb9b.png">
 
 ## Tools & Technologies
 - REACT
