@@ -56,7 +56,7 @@ const Resume = () => {
                     className='resume-list'
                     style={{ fontStyle: "italic", fontSize: "15px" }}
                   >
-                    Vanderbilt University * 2023
+                    Vanderbilt University 2023 - Nashville, TN
                   </div>
                   <div className='mern'>
                     HTML, CSS, JavaScript, MERN Stack, Apollo/GraphQL
@@ -64,13 +64,13 @@ const Resume = () => {
                 </div>
                 <div className='row item'>
                   <div className='nasm' style={{ fontSize: "20px" }}>
-                    Certified Personal Trainer
+                    Certified Personal Trainer 
                   </div>
                   <div
                     className='resume-list'
                     style={{ fontStyle: "italic", fontSize: "15px" }}
                   >
-                    National Academy of Sports Medicine
+                    National Academy of Sports Medicine - Online
                   </div>
                 </div>
                 <div className='row item'>
@@ -81,7 +81,7 @@ const Resume = () => {
                     className='resume-list'
                     style={{ fontStyle: "italic", fontSize: "15px" }}
                   >
-                    Ball State University
+                    Ball State University - Muncie, IN
                   </div>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Resume = () => {
                   >
                     Dubs Fitness, LLC
                   </div>
-                  <div className='mern'>Created personal training business, increasing clientele to 100% capacity within six months.</div>
+                  <div className='mern'>Launched personal training business, increasing clientele to 100% capacity within first six months.</div>
                 </div>
                 <div className='row item'>
                   <div
@@ -129,7 +129,7 @@ const Resume = () => {
                     Pure Sweat + Float Studio
                   </div>
                   <div className='mern'>
-                    Balanced client-facing relationships, collaborative relationships, and internal-facing problem solving and leadership.
+                    Navigated client-facing relationships, collaborative relationships, and internal-facing problem solving and leadership.
                   </div>
                 </div>
                 <div className='row item'>

@@ -34,7 +34,7 @@ function Portfolio() {
           <h5 style={styles.headingStyle}>My recent projects</h5>
         </span>
         <Row className='row gx-5' style={{ justifyContent: "center", marginTop: "15px", paddingBottom: "20px" }}>
-          <Col md={4} className='project-card'>
+          <Col md={4} style={{ paddingTop: '10px' }} className='project-card'>
             <Project 
               imgPath={athletetracker}
               title='athletetracker'
@@ -43,7 +43,7 @@ function Portfolio() {
               demoLink='https://athletetracker.herokuapp.com/'
             />
           </Col>
-          <Col md={4} className='project-card'>
+          <Col md={4} style={{ paddingTop: '10px' }} className='project-card'>
             <Project
               imgPath={goalE}
               title='Goal-E'
@@ -55,7 +55,7 @@ function Portfolio() {
           
         </Row>
         <Row className='row gx-5' style={{ justifyContent: "center", paddingBottom: "20px" }}>
-          <Col md={4} className='project-card'>
+          <Col md={4} style={{ paddingTop: '10px' }} className='project-card'>
             <Project
               imgPath={SideBeat3}
               title='Side Be@t'
@@ -64,7 +64,7 @@ function Portfolio() {
               demoLink='https://awil414.github.io/Side-Beat/'
             />
           </Col>
-          <Col md={4} className='project-card'>
+          <Col md={4} style={{ paddingTop: '10px' }} className='project-card'>
             <Project
               imgPath={planner}
               title='Day Planner'

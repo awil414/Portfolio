@@ -35,8 +35,8 @@ export default function About({ currentPage, setCurrentPage }) {
                 translator between business users and internal teams
               </span>
               . I'm bringing these skills, along with my strong work ethic, to
-              my tech career. Based in Middle Tennessee, I'm a Full-Stack Web
-              Developer with a certification from Vanderbilt University.
+              my tech career. Based in Middle Tennessee, I'm a <span style={{ color: "green", fontWeight: "bolder", fontSize: "16px" }}> Full-Stack Web
+              Developer </span> with a certification from Vanderbilt University.
             </p>
           </MDBCol>
           <p>JavaScript | MongoDB | Express | React | Node | Apollo GraphQL</p>
