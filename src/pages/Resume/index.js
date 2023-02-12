@@ -105,7 +105,7 @@ const Resume = () => {
                     className='educ-title'
                     style={{ fontWeight: "bolder", fontSize: "20px" }}
                   >
-                    Owner Operator{" "}
+                    Owner {" "}
                   </div>
                   <div
                     className='resume-list'
