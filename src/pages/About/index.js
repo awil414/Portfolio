@@ -4,7 +4,7 @@ import "./style.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import Type from "./Type";
 import "./type.css";
-import myResume from "../../media/aresume.pdf";
+import myResume from "../../media/amberwilson.pdf";
 
 // Function to return About page on renderPage
 export default function About({ currentPage, setCurrentPage }) {
