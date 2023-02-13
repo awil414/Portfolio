@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import myResume from "../../media/aresume.pdf";
+import myResume from "../../media/amberwilson.pdf";
 import {
   MDBCard,
   MDBCardBody,
