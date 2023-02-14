@@ -1,0 +1,41 @@
+/* .references_container {
+    width:80%;
+    border: solid, 2px;
+    padding-bottom: 4rem ;
+} */
+
+.reference_photo {
+    /* width: 8rem !important; */
+    /* aspect-ratio: 1/1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.2rem solid ;
+    height: 100px;
+    width: 100px;
+    border-radius: 110px;
+    background-size: cover;
+}
+
+.references {
+    text-align: center;
+    padding: 12px;
+    border: solid, 2px;
+    border-radius: 6px;
+    user-select: none;
+}
+
+/* .reference_text {
+    color: black;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+} */
+
+/* .swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-blue);
+    
+}  */
