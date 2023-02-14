@@ -14,9 +14,7 @@
 .education {
   padding-left: 20px;
   padding-right: 0;
-  
 }
-
 
 .resume {
   margin-top: 0;
@@ -54,12 +52,6 @@ span {
   
 }
 
-/*
-ul li::marker {
-  color: #6a994e !important;
-  font-size: 1.3em;
-}
-*/
 .main-title {
   margin-top: 10px;
   text-align: center;
@@ -67,22 +59,10 @@ ul li::marker {
   margin-bottom: 40px;
 } 
 
-/* .col-1-5 {
-  flex: 0 0 12.3%;
-    max-width: 12.3%;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-} */
-
 li a:hover {
   transition: 0.5s ease;
   color: "blue !important";
 }
-/* .res-list {
-  list-style-type: disc !important;
-} */
 
 /* relative here */
 .progress-bar-container {

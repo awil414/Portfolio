@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
-import { MDBContainer, MDBRow, MDBBtn, MDBIcon, MDBCol } from 'mdb-react-ui-kit';
+import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { FiPhone } from "react-icons/fi";
-import { Col, Row, Container } from "react-bootstrap";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -11,7 +10,6 @@ export default function Contact() {
   return (
     <div className='contact'>
       <MDBRow
-        
           className='contact-title'>
               <h1>
                 <span
@@ -23,7 +21,6 @@ export default function Contact() {
                   Contact
                 </span>
               </h1>
-        
       </MDBRow>
       <MDBRow>
         <MDBCol size={3} > </MDBCol>
@@ -70,12 +67,6 @@ export default function Contact() {
       
   )
 }
-
-
-
-
-
-
 
 
 

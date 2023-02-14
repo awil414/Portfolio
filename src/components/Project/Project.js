@@ -5,8 +5,6 @@ import {
   MDBCard,
   MDBCardImage,
   MDBBtn,
-  MDBRow,
-  MDBCol,
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
@@ -32,13 +30,11 @@ export default function Project(props) {
         </div>
         <MDBCardBody >
           <MDBCardTitle style={{ textAlign: 'center' }} > {props.title}</MDBCardTitle>
-
           <MDBCardText 
           style={{ textAlign: "center" }}
           >
           {props.description}
           </MDBCardText>
-
         </MDBCardBody>
         <MDBCardFooter >
           <center>
@@ -54,22 +50,6 @@ export default function Project(props) {
           </center>
         </MDBCardFooter>
       </MDBCard>
-
-
-
-      {/* <MDBRow className='align-items-center' style={{ maxWidth: "24rem", textAlign: 'justify' }}>
-        <MDBCol >
-          <MDBBtn size={'sm'}  style={{ float: 'right' }} href={props.demoLink}>
-            CLICK TO SEE
-          </MDBBtn>
-        </MDBCol>
-        <MDBCol>
-          {" "}
-          <a className='project-icon' href={props.ghLink}>
-            <VscGithub />
-          </a>
-        </MDBCol>
-      </MDBRow> */}
     </div>
   );
 }

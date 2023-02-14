@@ -2,7 +2,7 @@ import React from "react";
 import AmberImage from "../../images/me.jpeg";
 import "./style.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
-import Type from "./Type";
+// import Type from "./Type";
 import "./type.css";
 import myResume from "../../media/amberwilson.pdf";
 

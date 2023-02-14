@@ -1,14 +1,9 @@
-/* .crd-ftr-btn {
-  gap: "6px";
-} */
-
 .project-icon {
   color: black !important;
   /* text-align: right; */
   cursor: pointer;
   font-size: 25px;
-  /* float: center; */
-  /* padding-top: 10px; */
+ 
 }
 
 a:hover,
@@ -16,49 +11,3 @@ a:hover,
   transition: 0.3s ease;
   color: #1f87ff !important;
 }
-/* .img-blur {
-  position: relative;
-  display: inline-block;
-}
-
-.img-blur:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: inset 0 0 10px #ffffff;
-}
-
-p.card-text
-
-.custom-btn {
-  font-size: 12px;
-  background: white;
-  color: red;
-  align-items: center;
-}
-
-a {
-  color: white;
-  text-align: left;
-}
-
-a:hover,
-.MDBButton {
-  transition: 0.3s ease;
-  color: #1f87ff !important;
-}
-
-
-
-.card-foot {
-  align-items: center;
-  justify-content: center;
-
-}
-
-.crdfoot-btn {
-  width: 50%
-} */

@@ -4,8 +4,7 @@ import { GrLinkedin } from "react-icons/gr";
 import { TfiInstagram } from "react-icons/tfi";
 import { MdEmail } from "react-icons/md";
 import "./style.css";
-import { Container, Row, Col } from "react-bootstrap";
-import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
+import { Container, Row } from "react-bootstrap";
 
 // Function for footer with icons and links 
 function Footer() {
