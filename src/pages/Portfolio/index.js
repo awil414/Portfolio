@@ -59,7 +59,7 @@ function Portfolio() {
             <Project
               imgPath={SocNetworkAPI}
               title='API for Social Network'
-              description="MongoDB social network API. Users share their thoughts, react to thoughts, and create a friend list. (demo)"
+              description="MongoDB social network API. Users share their thoughts, react to thoughts, and create a friend list. (walkthrough demo)"
               ghLink='https://github.com/awil414/MongoDB-API-for-Social-Network-App.git'
               demoLink='https://drive.google.com/file/d/1D4vrsFPqIat5VqOE6rOrlxjJwm2WfPz0/view'
             />
