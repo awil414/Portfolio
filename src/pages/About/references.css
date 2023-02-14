@@ -13,10 +13,10 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.2rem solid ;
-    height: 100px;
-    width: 100px;
-    border-radius: 110px;
+    border: 0.2rem solid grey;
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
     background-size: cover;
 }
 
@@ -28,13 +28,15 @@
     user-select: none;
 }
 
-/* .reference_text {
+.reference_text {
     color: black;
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
-} */
-
+}
+.reco-title {
+    border-top: solid, white, 1px;
+}
 /* .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-blue);
     

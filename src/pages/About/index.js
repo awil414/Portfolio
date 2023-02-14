@@ -10,7 +10,7 @@ import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 // import Type from "./Type";
 import "./type.css";
 import myResume from "../../media/amberwilson.pdf";
-import Caroline from "../../images/References/caroline.jpeg";
+import Caroline from "../../images/References/Caroline.png";
 import Donnie from "../../images/References/Donnie.jpeg";
 import Saurav from "../../images/References/Saurav.jpeg";
 
@@ -22,7 +22,7 @@ export default function About({ currentPage, setCurrentPage }) {
   const data = [
     {
       photo: Donnie,
-      name: 'Don Allen',
+      name: 'Don Allen, Ph.D.',
       title: 'Talent Management Consultant',
       reference: 'I have seen Amber operate in multiple business contexts, both as a leader, and as a professional. She is highly committed to excellence, focused on the customer, and shows the ability to organize people toward positive outcomes. Her decisions and recommendations are backed by both data and experience. Perhaps most importantly, she is a great team player who is energetic and easy to work with!'
     },
@@ -88,9 +88,9 @@ export default function About({ currentPage, setCurrentPage }) {
           </MDBCol> 
         </MDBRow>
       </MDBContainer>
-      <MDBContainer className="references" style= {{ paddingTop: '38px', textAlign: 'center' }}>
-        <h3 style={{ paddingBottom: '28px', textDecoration: "underline",
-                    textDecorationColor: "orange", }} > References </h3>
+      <MDBContainer className="references" style= {{ paddingTop: '45px', textAlign: 'center' }}>
+        <h3 className="reco-title" style={{ paddingBottom: '25px', textDecoration: "underline",
+                    textDecorationColor: "orange", }} > Recommendations </h3>
         <Swiper className='references_container'
           modules={ [ Pagination, Navigation ]}
           spaceBetween={40}
