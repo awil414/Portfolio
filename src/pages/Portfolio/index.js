@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../../components/Project/Project.js";
 import goalE from "../../images/Projects/Target.jpg";
-import SocNetworkAPI from "../../images/Projects/SocNetworkAPI.png";
+import SocNetworkAPI from "../../images/Projects/APIpic.jpg";
 import SideBeat3 from "../../images/Projects/Concert.jpg";
 import planner from "../../images/Projects/Calendar.jpeg";
 import eCommerce from "../../images/Projects/eCommerce.png";
@@ -57,11 +57,11 @@ function Portfolio() {
         <Row className='row gx-5' style={{ justifyContent: "center", paddingBottom: "20px" }}>
           <Col md={4} style={{ paddingTop: '10px' }} className='project-card'>
             <Project
-              imgPath={SideBeat3}
-              title='Side Be@t'
-              description="Using 3rd Party APIs, users enter a band name and are returned a list of similar artists and links to their concerts."
-              ghLink='https://github.com/awil414/Side-Beat.git'
-              demoLink='https://awil414.github.io/Side-Beat/'
+              imgPath={SocNetworkAPI}
+              title='API for Social Network'
+              description="MongoDB social network API. Users share their thoughts, react to thoughts, and create a friend list. (demo)"
+              ghLink='https://github.com/awil414/MongoDB-API-for-Social-Network-App.git'
+              demoLink='https://drive.google.com/file/d/1D4vrsFPqIat5VqOE6rOrlxjJwm2WfPz0/view'
             />
           </Col>
           <Col md={4} style={{ paddingTop: '10px' }} className='project-card'>
@@ -71,18 +71,13 @@ function Portfolio() {
               description='Built with jQuery, HTML5, CSS3, and Moment.js, this simple calendar app helps the user with time management.'
               ghLink='https://github.com/awil414/Kick-Butt-And-Take-Names-Planner.git'
               demoLink='https://awil414.github.io/Kick-Butt-And-Take-Names-Planner/'
-            />
+            />   
           </Col>
         </Row>
         {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className='project-card'>
             <Project
-              imgPath={SocNetworkAPI}
-              title='API for Social Network'
-              description="This project was developed to build and structure a social network API using MongoDB because of its speed with large amounts of data, and flexibility with unstructured data. Users are able to share their thoughts, react to friends' thoughts, and create a friend list."
-              ghLink='https://github.com/awil414/MongoDB-API-for-Social-Network-App.git'
-              demoLink='https://drive.google.com/file/d/1D4vrsFPqIat5VqOE6rOrlxjJwm2WfPz0/view'
-            />
+               
           </Col>
           <Col md={4} className='project-card'>
             <Project
@@ -100,3 +95,9 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
+// imgPath={SideBeat3}
+// title='Side Be@t'
+// description="Using 3rd Party APIs, users enter a band name and are returned a list of similar artists and links to their concerts."
+// ghLink='https://github.com/awil414/Side-Beat.git'
+// demoLink='https://awil414.github.io/Side-Beat/'    
