@@ -15,8 +15,8 @@
 .references {
     text-align: center;
     padding: 12px;
-    border: solid, 2px;
-    border-radius: 6px;
+    /* border: solid, 2px;
+    border-radius: 6px; */
     user-select: none;
 }
 
