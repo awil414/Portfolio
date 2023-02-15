@@ -89,7 +89,7 @@ export default function About({ currentPage, setCurrentPage }) {
         </MDBRow>
       </MDBContainer>
       <MDBContainer className="references" style= {{ paddingTop: '50px', textAlign: 'center' }}>
-        <h3 className="reco-title" style={{ paddingBottom: '18px', textDecoration: "underline",
+        <h3 className="reco-title" style={{ paddingBottom: '10px', textDecoration: "underline",
                     textDecorationColor: "orange", }} > Recommendations </h3>
         <Swiper className='references_container'
           modules={ [ Pagination, Navigation ]}
