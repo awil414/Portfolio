@@ -12,7 +12,7 @@ import "./type.css";
 import myResume from "../../media/amberwilson.pdf";
 import Caroline from "../../images/References/Caroline.png";
 import Donnie from "../../images/References/Donnie.jpeg";
-import Saurav from "../../images/References/Saurav.jpeg";
+import Saurav from "../../images/References/Saurav.K.png";
 
 
 
@@ -36,7 +36,7 @@ export default function About({ currentPage, setCurrentPage }) {
       photo: Caroline,
       name: 'Caroline Kyle',
       title: 'Software Engineer',
-      reference: 'Amber has a strong foundation in HTML, CSS, and JavaScript, and has demonstrated an ability to quickly pick up new technologies and frameworks, such as React.js. She also has a strong foundation of backend development with knowledge of both relational and non relational databases such as MySQL and MongoDB. She has a keen eye for detail and a passion for writing clean, efficient, and well-documented code. Amber is a quick learner with a positive attitude. She is always willing to ask questions and collaborate with her peers to improve their skills. Her natural curiosity and passion for programming make her a valuable asset to any development team. In addition to her technical skills, Amber also impressed me with her ability to work well in a team. She is a great communicator and is able to effectively communicate her ideas to others. She has a strong work ethic and always strives to deliver high-quality work. I am confident that Amber would be a valuable asset to any organization and would bring a positive, energetic, and collaborative approach to any team. I highly recommend Amber for any Web Developer role and believe she will excel in this position.'
+      reference: 'Amber has a strong foundation in HTML, CSS, and JavaScript, and has demonstrated an ability to quickly pick up new technologies and frameworks, such as React.js. She also has a strong foundation of backend development with knowledge of both relational and non relational databases such as MySQL and MongoDB. In addition to her technical skills, Amber also impressed me with her ability to work well in a team. She is a great communicator and is able to effectively communicate her ideas to others. I am confident that Amber would be a valuable asset to any organization and would bring a positive, energetic, and collaborative approach to any team. I highly recommend Amber for any Web Developer role and believe she will excel in this position.'
     },
   
   ]
@@ -88,8 +88,8 @@ export default function About({ currentPage, setCurrentPage }) {
           </MDBCol> 
         </MDBRow>
       </MDBContainer>
-      <MDBContainer className="references" style= {{ paddingTop: '45px', textAlign: 'center' }}>
-        <h3 className="reco-title" style={{ paddingBottom: '25px', textDecoration: "underline",
+      <MDBContainer className="references" style= {{ paddingTop: '50px', textAlign: 'center' }}>
+        <h3 className="reco-title" style={{ paddingBottom: '18px', textDecoration: "underline",
                     textDecorationColor: "orange", }} > Recommendations </h3>
         <Swiper className='references_container'
           modules={ [ Pagination, Navigation ]}
