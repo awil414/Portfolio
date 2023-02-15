@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a127cb43.css",
-    "main.js": "/Portfolio/static/js/main.e8eff256.js",
-    "static/media/AthleteTracker.png": "/Portfolio/static/media/AthleteTracker.393db4c11785b1483b55.png",
+    "main.css": "/Portfolio/static/css/main.a7b4d3ca.css",
+    "main.js": "/Portfolio/static/js/main.018f2c06.js",
     "static/media/me.jpeg": "/Portfolio/static/media/me.c0d3f58b17e21718d2e3.jpeg",
-    "static/media/eCommerce.png": "/Portfolio/static/media/eCommerce.602805d8b338d4ad7929.png",
-    "static/media/CodingQuiz.png": "/Portfolio/static/media/CodingQuiz.7898600df68c139b3119.png",
     "static/media/amberwilson.pdf": "/Portfolio/static/media/amberwilson.fcd9d0f22d46e5fdd2e1.pdf",
     "static/media/socMedia.jpg": "/Portfolio/static/media/socMedia.62fefd8b8726a0effff1.jpg",
     "static/media/Target.jpg": "/Portfolio/static/media/Target.4174501a9b172c27905a.jpg",
     "static/media/434.jpg": "/Portfolio/static/media/434.85ca4317ffc45997c2f7.jpg",
     "static/media/Calendar.jpeg": "/Portfolio/static/media/Calendar.4c5268016c894bbd065f.jpeg",
-    "static/media/Concert.jpg": "/Portfolio/static/media/Concert.01906e84bf3651044deb.jpg",
+    "static/media/Caroline.png": "/Portfolio/static/media/Caroline.f1b7d3ac03a647982ca1.png",
+    "static/media/Saurav.K.png": "/Portfolio/static/media/Saurav.K.12c10fabbb3d4ab17cea.png",
     "index.html": "/Portfolio/index.html",
-    "main.a127cb43.css.map": "/Portfolio/static/css/main.a127cb43.css.map",
-    "main.e8eff256.js.map": "/Portfolio/static/js/main.e8eff256.js.map"
+    "main.a7b4d3ca.css.map": "/Portfolio/static/css/main.a7b4d3ca.css.map",
+    "main.018f2c06.js.map": "/Portfolio/static/js/main.018f2c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.a127cb43.css",
-    "static/js/main.e8eff256.js"
+    "static/css/main.a7b4d3ca.css",
+    "static/js/main.018f2c06.js"
   ]
 }
