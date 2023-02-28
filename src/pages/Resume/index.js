@@ -68,7 +68,7 @@ const Resume = () => {
                 </div>
                 <div className='row item'>
                   <div className='bsu' style={{ fontSize: "20px" }}>
-                    B.S. Accounting
+                    Accounting
                   </div>
                   <div
                     className='resume-list'
