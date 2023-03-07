@@ -9,7 +9,7 @@ import "./references.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 // import Type from "./Type";
 import "./type.css";
-import myResume from "../../media/amberwilson.pdf";
+import myResume from "../../media/Provisions.pdf";
 import Caroline from "../../images/References/Caroline.png";
 import Donnie from "../../images/References/Donnie.jpeg";
 import Saurav from "../../images/References/Saurav.K.png";
