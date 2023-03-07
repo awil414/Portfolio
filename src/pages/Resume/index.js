@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import myResume from "../../media/Provisions.pdf";
+import myResume from "../../media/amberwilson.pdf";
 import { MDBRow } from "mdb-react-ui-kit";
 import Slide from "react-reveal";
 import { Col, Row, Container } from "react-bootstrap";
