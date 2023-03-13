@@ -59,21 +59,23 @@ export default function About({ currentPage, setCurrentPage }) {
           </MDBCol>
           <MDBCol md='8' className='about-text'>
             <p>
-              I'm an{" "}
+              A {" "}
               <span style={{ color: "green", fontSize: "16px" }}>
-                entrepreneur
+                full stack developer</span>, <span style={{ color: "green", fontSize: "16px" }}> entrepreneur </span>, and <span style={{ color: "green", fontSize: "16px" }}> coach, 
               </span> {" "}
-               seasoned at building partnerships, fostering collaborative
-              relationships, and acting as{" "}
+              I have a unique set of skills that empower me to excel in the digital space. I approach complex problems with an analytical mindset while valuing {" "}
               <span style={{ color: "green", fontSize: "16px" }}>
-                translator between business users and internal teams
+              product ownership, relationships, empathy, leadership,</span> and <span style={{ color: "green", fontSize: "16px" }}> teamwork
               </span>
-              . I'm bringing these skills, along with my strong work ethic, to
-              my tech career. Based in Middle Tennessee, I'm a <span style={{ color: "green", fontWeight: "bolder", fontSize: "16px" }}> Full-Stack Web
-              Developer </span> with a certification from Vanderbilt University.
+              . 
+            </p>
+            <p>
+              Proficient in the <span style={{ color: "green", fontSize: "16px" }}> MERN stack, JavaScript, Node, HTML/CSS, GraphQL, APIs, </span> 
+              and more, I develop problem-solving applications and work well in <span style={{ color: "green", fontSize: "16px" }}> cross-functional </span> environments. 
+              I have a ridiculous growth-mindset, excellent foresight, and am an advocate for self and organizational improvement. 
             </p>
           </MDBCol>
-          <p>JavaScript | MongoDB | Express | React | Node | Apollo GraphQL</p>
+          <p>JavaScript | MongoDB | Express | React | Node | GraphQL</p>
         </MDBRow>
       </MDBContainer>
       {""}
