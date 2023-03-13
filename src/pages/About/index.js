@@ -59,11 +59,11 @@ export default function About({ currentPage, setCurrentPage }) {
           </MDBCol>
           <MDBCol md='8' className='about-text'>
             <p>
-              A {" "}
+              {" "}
               <span style={{ color: "green", fontSize: "16px" }}>
-                full stack developer</span>, <span style={{ color: "green", fontSize: "16px" }}> entrepreneur </span>, and <span style={{ color: "green", fontSize: "16px" }}> coach, 
+                Full stack developer</span>, <span style={{ color: "green", fontSize: "16px" }}> entrepreneur </span>, and <span style={{ color: "green", fontSize: "16px" }}> coach, 
               </span> {" "}
-              I have a unique set of skills that empower me to excel in the digital space. I approach complex problems with an analytical mindset while valuing {" "}
+              I have a unique set of skills that empower me to excel in software engineering and the tech industry. I approach complex problems with an analytical mindset while valuing {" "}
               <span style={{ color: "green", fontSize: "16px" }}>
               product ownership, relationships, empathy, leadership,</span> and <span style={{ color: "green", fontSize: "16px" }}> teamwork
               </span>
