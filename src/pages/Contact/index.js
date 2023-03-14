@@ -55,11 +55,11 @@ export default function Contact() {
       <MDBRow style={{ paddingTop: '25px' }}>
         <MDBCol size={3} > </MDBCol>
         <MDBCol size={1} style={{ paddingTop: '20px'}}>
-            <a className='contact-circle' href='https://www.linkedin.com/in/amber-wilson-255272217/'> 
+            <a className='contact-circle' href='https://www.linkedin.com/in/amber-wilson-code/'> 
             <FaLinkedinIn fontSize='22px' /> </a>
         </MDBCol>
         <MDBCol style={{ fontSize: "15px", paddingTop: "22px" }}>
-          linkedin.com/in/amber-wilson-255272217
+          linkedin.com/in/amber-wilson-code
         </MDBCol>
       </MDBRow>
       

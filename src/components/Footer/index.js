@@ -18,7 +18,7 @@ function Footer() {
               <GoMarkGithub />
             </li>
           </a>
-          <a href='https://www.linkedin.com/in/amber-wilson-255272217/'>
+          <a href='https://www.linkedin.com/in/amber-wilson-code/'>
             <li className='ftr-icon'>
               <GrLinkedin />
             </li>
