@@ -52,7 +52,7 @@ const Resume = () => {
                     Vanderbilt University 2023 - Nashville, TN
                   </div>
                   <div className='mern'>
-                    HTML, CSS, JavaScript, MERN Stack, Apollo/GraphQL
+                    HTML, CSS, JavaScript, MERN Stack, GraphQL
                   </div>
                 </div>
                 <div className='row item'>
@@ -104,7 +104,7 @@ const Resume = () => {
                     className='resume-list'
                     style={{ fontStyle: "italic", fontSize: "15px" }}
                   >
-                    Dubs Fitness, LLC
+                    Willpower, LLC
                   </div>
                   <div className='mern'>Launched personal training business, increasing clientele to 100% capacity within first six months.</div>
                 </div>
