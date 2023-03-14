@@ -43,7 +43,7 @@ const Resume = () => {
                     className='educ-title'
                     style={{ fontWeight: "bolder", fontSize: "20px" }}
                   >
-                    Full-Stack Web Developer Certification{" "}
+                    Full Stack Web Developer Certification{" "}
                   </div>
                   <div
                     className='resume-list'
