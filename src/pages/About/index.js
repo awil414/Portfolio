@@ -9,7 +9,7 @@ import "./references.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 // import Type from "./Type";
 import "./type.css";
-import myResume from "../../media/amberwilson.pdf";
+import myResume from "../../media/portfolioResume.pdf";
 import Caroline from "../../images/References/Caroline.png";
 import Donnie from "../../images/References/Donnie.jpeg";
 import Saurav from "../../images/References/Saurav.K.png";
@@ -61,18 +61,19 @@ export default function About({ currentPage, setCurrentPage }) {
             <p>
               {" "}
               <span style={{ color: "green", fontSize: "16px" }}>
-                Full stack developer</span>, <span style={{ color: "green", fontSize: "16px" }}> entrepreneur </span>, and <span style={{ color: "green", fontSize: "16px" }}> coach, 
+                Full stack developer</span>, <span style={{ color: "green", fontSize: "16px" }}> entrepreneur</span>, and <span style={{ color: "green", fontSize: "16px" }}> coach, 
               </span> {" "}
-              I have a unique set of skills that empower me to excel in software engineering and the tech industry. I approach complex problems with an analytical mindset while valuing {" "}
+              I have a unique set of skills that empower me to excel in the tech industry. I approach complex problems with an analytical mindset while valuing {" "}
               <span style={{ color: "green", fontSize: "16px" }}>
-              product ownership, relationships, empathy, leadership,</span> and <span style={{ color: "green", fontSize: "16px" }}> teamwork
+              product ownership</span>, <span style={{ color: "green", fontSize: "16px" }}>relationships</span>, <span style={{ color: "green", fontSize: "16px" }}>empathy</span>, <span style={{ color: "green", fontSize: "16px" }}>leadership</span>, and <span style={{ color: "green", fontSize: "16px" }}> teamwork
               </span>
               . 
             </p>
             <p>
-              Proficient in the <span style={{ color: "green", fontSize: "16px" }}> MERN stack, JavaScript, Node, HTML/CSS, GraphQL, APIs, </span> 
+              Proficient in the <span style={{ color: "green", fontSize: "16px" }}> MERN stack</span>, <span style={{ color: "green", fontSize: "16px" }}>JavaScript</span>, <span style={{ color: "green", fontSize: "16px" }}>Node</span>, <span style={{ color: "green", fontSize: "16px" }}>HTML5/CSS3</span>, 
+              <span style={{ color: "green", fontSize: "16px" }}> GraphQL</span>, <span style={{ color: "green", fontSize: "16px" }}>APIs </span>, 
               and more, I develop problem-solving applications and work well in <span style={{ color: "green", fontSize: "16px" }}> cross-functional </span> environments. 
-              I have a ridiculous growth-mindset, excellent foresight, and am an advocate for self and organizational improvement. 
+              I have a voracious growth mindset, excellent foresight, and am an advocate for self and organizational improvement. 
             </p>
           </MDBCol>
           <p>JavaScript | MongoDB | Express | React | Node | GraphQL</p>
